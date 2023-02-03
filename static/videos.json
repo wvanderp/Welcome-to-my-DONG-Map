@@ -1,0 +1,137 @@
+[
+    {
+        "title": "I Can't Believe this is Seoul!",
+        "thumbnail": "https://i.ytimg.com/vi_webp/q3oAFTLXpJw/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=q3oAFTLXpJw",
+        "id": "q3oAFTLXpJw",
+        "location": "Suyu-dong",
+        "geojson": [
+            11305103
+        ],
+        "color": "#c45a47",
+        "quote": "Seoul, but with countryside charm"
+    },
+    {
+        "title": "Korea University Campus has always been a 'Battleground'",
+        "thumbnail": "https://i.ytimg.com/vi_webp/sCuerkOYjOg/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=sCuerkOYjOg",
+        "id": "sCuerkOYjOg",
+        "location": "Anam-dong",
+        "geojson": [
+            11290125
+        ],
+        "color": "#c70e1a",
+        "quote": "Playground for aram tigers of Korea University"
+    },
+    {
+        "title": "The Shocking Reality of Daechi-dong!",
+        "thumbnail": "https://i.ytimg.com/vi_webp/XFIFGDuaOok/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=XFIFGDuaOok",
+        "id": "XFIFGDuaOok",
+        "location": "Daechi-dong",
+        "geojson": [
+            11680106
+        ],
+        "color": "#53b06d",
+        "quote": "NR. 1 Hub Private Education"
+    },
+    {
+        "title": "7 Reasons to go to Myeong-dong",
+        "thumbnail": "https://i.ytimg.com/vi_webp/TOIQNilkWc4/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=TOIQNilkWc4",
+        "id": "TOIQNilkWc4",
+        "location": "Myeong-dong",
+        "geojson": [11140115, 11140105, 11140131, 11140126, 11140127, 11140124, 11140125],
+        "color": "#4280c7",
+        "quote": "More then shopping"
+    },
+    {
+        "title": "I never thought I could love Myeong-dong",
+        "thumbnail": "https://i.ytimg.com/vi_webp/9oGGEZgM73g/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=9oGGEZgM73g",
+        "id": "9oGGEZgM73g",
+        "location": "Myeong-dong",
+        "geojson": [11140115, 11140105, 11140131, 11140126, 11140127, 11140124, 11140125],
+        "color": "#4280c7"
+    },
+    {
+        "title": "There is no more Korean place than this one",
+        "thumbnail": "https://i.ytimg.com/vi_webp/pJbr74ksiLg/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=pJbr74ksiLg",
+        "id": "pJbr74ksiLg",
+        "location": "Jegi-dong",
+        "geojson": [11230103],
+        "color": "#ebe68a",
+        "quote": "Home of seolleongtang & Korean medicine"
+    },
+    {
+        "title": "Why Seoul’s Royal Palace was built in the Western hood",
+        "thumbnail": "https://i.ytimg.com/vi_webp/JJr29iRsPf8/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=JJr29iRsPf8",
+        "id": "JJr29iRsPf8",
+        "location": "Jeong-dong",
+        "geojson": [11140167],
+        "color": "#2d0b61",
+        "quote": "King Sejong meets Westerners"
+    },
+    {
+        "title": "Is Seoul's Daerim-dong Really Dangerous?",
+        "thumbnail": "https://i.ytimg.com/vi_webp/P3i6S08B47U/sddefault.webp",
+        "url": "https://www.youtube.com/watch?v=P3i6S08B47U",
+        "id": "P3i6S08B47U",
+        "location": "Daerim-dong",
+        "geojson": [11560133],
+        "color": "#3993bd",
+        "quote": "The unofficial China (and Korean) Town"
+    },
+    {
+        "title": "This city was built on top of Trash",
+        "thumbnail": "https://i.ytimg.com/vi_webp/9DxNAs0cvJA/sddefault.webp",
+        "url": "https://www.youtube.com/watch?v=9DxNAs0cvJA",
+        "id": "9DxNAs0cvJA",
+        "location": "Sangam-dong",
+        "geojson": [11440127],
+        "color": "#c1e33b",
+        "quote": "Media Mecca & Many Parks"
+    },
+    {
+        "title": "The secrets hidden among the skyscrapers of Yeouido",
+        "thumbnail": "https://i.ytimg.com/vi_webp/k5PJxB0Dnwc/sddefault.webp",
+        "url": "https://www.youtube.com/watch?v=k5PJxB0Dnwc",
+        "id": "k5PJxB0Dnwc",
+        "location": "Yeouido-dong",
+        "geojson": [11560110],
+        "color": "#deaf49",
+        "quote": "seoul's Manhattan"
+    },
+    {
+        "title": "Am I weird thinking that Korean Moon Village is beautiful?",
+        "thumbnail": "https://i.ytimg.com/vi/xkhK9KuFirM/sddefault.jpg",
+        "url": "https://www.youtube.com/watch?v=xkhK9KuFirM",
+        "id": "xkhK9KuFirM",
+        "location": "Junggye-dong",
+        "geojson": [11350106],
+        "color": "#069e55",
+        "quote": "Half-moon Village"
+    },
+    {
+        "title": "Why I couldn't respect Korea until I saw this",
+        "thumbnail": "https://i.ytimg.com/vi_webp/U_tI5Dk3vCk/sddefault.webp",
+        "url": "https://www.youtube.com/watch?v=U_tI5Dk3vCk",
+        "id": "U_tI5Dk3vCk",
+        "location": "Changsin-dong",
+        "geojson": [11110174],
+        "color": "#521a07",
+        "quote": "Noisy Textile"
+    },
+    {
+        "title": "Why Korea's Mysterious Back-Alleys are Disappearing",
+        "thumbnail": "https://i.ytimg.com/vi_webp/CseT4dvgTMU/sddefault.webp",
+        "url": "https://www.youtube.com/watch?v=CseT4dvgTMU",
+        "id": "CseT4dvgTMU",
+        "location": "Jongno-dong",
+        "geojson": [11110126, 11110138, 11110156, 11110161, 11110150],
+        "color": "#ba1907",
+        "quote": "Fading Commoners"
+    }
+]
