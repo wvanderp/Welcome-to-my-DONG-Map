@@ -6,84 +6,26 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "ssamzie sport",
-                "google": "https://www.google.com/maps/@37.6461724,127.0195447,3a,60y,55.43h,87.75t/data=!3m6!1e1!3m4!1sl2wgtn7S_dzaRkaygRRr5A!2e0!7i13312!8i6656",
-                "video": "q3oAFTLXpJw"
+                "image": "https://i.imgur.com/chyI8BO.jpeg",
+                "google": "https://goo.gl/maps/BXxJ2hXuinNZMZmr7",
+                "name": "Bottasa temple",
+                "video": "sCuerkOYjOg"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.01962955229,
-                    37.64620999817
+                    127.03072249755,
+                    37.59063097827
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "name_korean": "통일의집",
-                "name": "Unification House",
-                "google": "https://goo.gl/maps/FBJnCfBtN5kNaT7k7",
-                "video": "q3oAFTLXpJw"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01028507136,
-                    37.64117119282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Unification House mural",
-                "video": "q3oAFTLXpJw"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01011240415,
-                    37.64111384723
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://goo.gl/maps/Dqx4K9mBjzQimefo6",
-                "name": "Bukhansan Dulegil White Cloud Observatory",
-                "video": "q3oAFTLXpJw"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00978383288,
-                    37.62974421038
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Beautiful house",
-                "google": "https://goo.gl/maps/FYeqVbCK9HyPssL68",
-                "video": "q3oAFTLXpJw"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01070450179,
-                    37.64677226305
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "world's most messiest shop",
+                "video": "q3oAFTLXpJw",
+                "name": "World's most messiest shop",
                 "google": "https://goo.gl/maps/BjZSLF6KcfrjxS8c9",
-                "video": "q3oAFTLXpJw"
+                "image": "https://i.imgur.com/vezDFea.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -96,39 +38,26 @@
         {
             "type": "Feature",
             "properties": {
-                "google": "https://goo.gl/maps/GraeN5xwfT114xkx5",
-                "name": "Hwagyesa Temple",
-                "video": "q3oAFTLXpJw"
+                "google": "https://goo.gl/maps/RQX5v55Mrye2TKeT9",
+                "image": "https://i.imgur.com/r1QqW7J.png",
+                "name": "Library",
+                "video": "sCuerkOYjOg"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.00751334295,
-                    37.63282535163
+                    127.03318208188,
+                    37.58993598533
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "name": "Hwagyesa entrance",
-                "google": "https://goo.gl/maps/BhCBxyUDgVmrWk3s8",
-                "video": "q3oAFTLXpJw"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00974896416,
-                    37.63314078701
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "시래기화덕생선구이",
-                "name": "fish restaurant",
-                "video": "q3oAFTLXpJw"
+                "google": "https://goo.gl/maps/cjVD9sbtnX82CvUB9",
+                "video": "q3oAFTLXpJw",
+                "name": "Fish restaurant",
+                "image": "https://i.imgur.com/dEuAzgw.png"
             },
             "geometry": {
                 "type": "Point",
@@ -141,15 +70,240 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "April 19th National Cemetery",
+                "name": "Asiatic Research Center",
+                "google": "https://goo.gl/maps/U27Ecqcq2oCDsE7o6",
+                "image": "https://i.imgur.com/J4SIyot.jpeg",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.03357368574,
+                    37.59095190604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Message board",
+                "image": "https://i.imgur.com/bziBtS6.jpeg",
+                "google": "https://www.google.com/maps/@37.5867742,127.0299176,3a,60y,10.97h,94.52t/data=!3m6!1e1!3m4!1s9uyw6EGaHGO88Ko_EC_0xw!2e0!7i13312!8i6656",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.03000768885,
+                    37.58690407672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video": "q3oAFTLXpJw",
                 "google": "https://goo.gl/maps/ak8rP5oMhnaGLpJ76",
-                "video": "q3oAFTLXpJw"
+                "name": "April 19th National Cemetery",
+                "image": "https://i.imgur.com/skTUBTg.jpg"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     127.00843870506,
                     37.64755167566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "google": "https://www.google.com/maps/@37.6461724,127.0195447,3a,60y,55.43h,87.75t/data=!3m6!1e1!3m4!1sl2wgtn7S_dzaRkaygRRr5A!2e0!7i13312!8i6656",
+                "video": "q3oAFTLXpJw",
+                "name": "SSamzie sport",
+                "image": "https://i.imgur.com/zZYASeJ.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.01962955229,
+                    37.64620999817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "image": "https://i.imgur.com/zbPArXG.jpeg",
+                "name": "Main Administration Building",
+                "google": "https://goo.gl/maps/uG8M7MBF2QbPTL3K6",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.03228354186,
+                    37.58955341706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "image": "https://i.imgur.com/IbVRvIr.jpeg",
+                "google": "https://goo.gl/maps/gXfZZdrQ4eP4wvay5",
+                "name": "Nice view from up the temple",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.02821597323,
+                    37.59019953016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "google": "https://goo.gl/maps/FYeqVbCK9HyPssL68",
+                "video": "q3oAFTLXpJw",
+                "name": "Beautiful house",
+                "image": "https://i.imgur.com/yRI7rlj.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.01070450179,
+                    37.64677226305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hwagyesa Temple entrance",
+                "video": "q3oAFTLXpJw",
+                "google": "https://goo.gl/maps/BhCBxyUDgVmrWk3s8",
+                "image": "https://i.imgur.com/bEUGoFR.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.00974896416,
+                    37.63314078701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video": "q3oAFTLXpJw",
+                "google": "https://goo.gl/maps/GraeN5xwfT114xkx5",
+                "name": "Hwagyesa Temple",
+                "image": "https://i.imgur.com/xH4NFWc.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.00751334295,
+                    37.63282535163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "google": "https://goo.gl/maps/Dqx4K9mBjzQimefo6",
+                "video": "q3oAFTLXpJw",
+                "name": "Bukhansan Dulegil White Cloud Observatory",
+                "image": "https://i.imgur.com/eyUEsCG.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.00978383288,
+                    37.62974421038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "video": "q3oAFTLXpJw",
+                "name": "Unification House mural",
+                "image": "https://i.imgur.com/7NaJxRu.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.01011240415,
+                    37.64111384723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "image": "https://i.imgur.com/Bf6Xnef.jpeg",
+                "name": "April 18th monument",
+                "google": "https://www.google.com/maps/place/37%C2%B035'19.5%22N+127%C2%B001'57.3%22E/@37.5887511,127.0320308,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.58875!4d127.032578",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.03261077270,
+                    37.58873088754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Temple entrance",
+                "google": "https://goo.gl/maps/GX229FMxKE31txnS7",
+                "image": "https://i.imgur.com/kXbo5hc.jpeg",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.02914334767,
+                    37.58902791222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "google": "https://goo.gl/maps/FBJnCfBtN5kNaT7k7",
+                "video": "q3oAFTLXpJw",
+                "name": "Unification House",
+                "name_korean": "통일의집",
+                "image": "https://i.imgur.com/ieDOrLB.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.01028507136,
+                    37.64117119282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "image": "https://i.imgur.com/3W4sUSc.jpeg",
+                "google": "https://www.google.com/maps/place/37%C2%B035'17.8%22N+127%C2%B002'02.9%22E/@37.5882764,127.0335826,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.5882753!4d127.0341298",
+                "name": "The famous gate of korea university",
+                "video": "sCuerkOYjOg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.03414365515,
+                    37.58824629288
                 ]
             }
         }

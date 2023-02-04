@@ -14,6 +14,7 @@ import dongsData from '../static/dongs.json';
 import videos from '../static/videos.json';
 import createDongCard from './components/DongCard';
 import { Dong } from '../types/Dong';
+import createMarkerCard from './components/markerCard';
 
 const initialPosition = { lat: 37.5291838748897, lng: 126.9818390908695 } as LatLngLiteral;
 
@@ -22,6 +23,9 @@ const markers = data.features.map((feature) => {
 
     const color = videos.find((video) => video.id === properties.video)?.color;
 
+    // @ts-expect-error
+    const markerCard = createMarkerCard(feature);
+
     return (
         <Marker
             position={[geometry.coordinates[1], geometry.coordinates[0]]}
@@ -29,7 +33,7 @@ const markers = data.features.map((feature) => {
             icon={MarkerIcon(color)}
         >
             <Popup>
-                {properties.name}
+                {markerCard}
             </Popup>
         </Marker>
     );
@@ -43,6 +47,7 @@ const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['
         const video = videos.find((v) => v.geojson.includes(Number.parseInt(properties?.EMD_CD, 10)));
         const color = video?.color ?? 'gray';
 
+        // @ts-expect-error
         const dongCard = createDongCard(feature, video);
 
         return (
@@ -58,7 +63,6 @@ const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['
             </Polygon>
         );
     });
-
 
 export default function App() {
     return (
