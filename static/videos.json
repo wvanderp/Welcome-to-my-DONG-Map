@@ -43,7 +43,15 @@
         "url": "https://www.youtube.com/watch?v=TOIQNilkWc4",
         "id": "TOIQNilkWc4",
         "location": "Myeong-dong",
-        "geojson": [11140115, 11140105, 11140131, 11140126, 11140127, 11140124, 11140125],
+        "geojson": [
+            11140115,
+            11140105,
+            11140131,
+            11140126,
+            11140127,
+            11140124,
+            11140125
+        ],
         "color": "#4280c7",
         "quote": "More then shopping"
     },
@@ -53,8 +61,17 @@
         "url": "https://www.youtube.com/watch?v=9oGGEZgM73g",
         "id": "9oGGEZgM73g",
         "location": "Myeong-dong",
-        "geojson": [11140115, 11140105, 11140131, 11140126, 11140127, 11140124, 11140125],
-        "color": "#4280c7"
+        "geojson": [
+            11140115,
+            11140105,
+            11140131,
+            11140126,
+            11140127,
+            11140124,
+            11140125
+        ],
+        "color": "#4280c7",
+        "quote": "More then shopping"
     },
     {
         "title": "There is no more Korean place than this one",
@@ -62,7 +79,9 @@
         "url": "https://www.youtube.com/watch?v=pJbr74ksiLg",
         "id": "pJbr74ksiLg",
         "location": "Jegi-dong",
-        "geojson": [11230103],
+        "geojson": [
+            11230103
+        ],
         "color": "#ebe68a",
         "quote": "Home of seolleongtang & Korean medicine"
     },
@@ -72,7 +91,9 @@
         "url": "https://www.youtube.com/watch?v=JJr29iRsPf8",
         "id": "JJr29iRsPf8",
         "location": "Jeong-dong",
-        "geojson": [11140167],
+        "geojson": [
+            11140167
+        ],
         "color": "#2d0b61",
         "quote": "King Sejong meets Westerners"
     },
@@ -82,7 +103,9 @@
         "url": "https://www.youtube.com/watch?v=P3i6S08B47U",
         "id": "P3i6S08B47U",
         "location": "Daerim-dong",
-        "geojson": [11560133],
+        "geojson": [
+            11560133
+        ],
         "color": "#3993bd",
         "quote": "The unofficial China (and Korean) Town"
     },
@@ -92,7 +115,9 @@
         "url": "https://www.youtube.com/watch?v=9DxNAs0cvJA",
         "id": "9DxNAs0cvJA",
         "location": "Sangam-dong",
-        "geojson": [11440127],
+        "geojson": [
+            11440127
+        ],
         "color": "#c1e33b",
         "quote": "Media Mecca & Many Parks"
     },
@@ -102,7 +127,9 @@
         "url": "https://www.youtube.com/watch?v=k5PJxB0Dnwc",
         "id": "k5PJxB0Dnwc",
         "location": "Yeouido-dong",
-        "geojson": [11560110],
+        "geojson": [
+            11560110
+        ],
         "color": "#deaf49",
         "quote": "seoul's Manhattan"
     },
@@ -112,7 +139,9 @@
         "url": "https://www.youtube.com/watch?v=xkhK9KuFirM",
         "id": "xkhK9KuFirM",
         "location": "Junggye-dong",
-        "geojson": [11350106],
+        "geojson": [
+            11350106
+        ],
         "color": "#069e55",
         "quote": "Half-moon Village"
     },
@@ -122,7 +151,9 @@
         "url": "https://www.youtube.com/watch?v=U_tI5Dk3vCk",
         "id": "U_tI5Dk3vCk",
         "location": "Changsin-dong",
-        "geojson": [11110174],
+        "geojson": [
+            11110174
+        ],
         "color": "#521a07",
         "quote": "Noisy Textile"
     },
@@ -132,8 +163,27 @@
         "url": "https://www.youtube.com/watch?v=CseT4dvgTMU",
         "id": "CseT4dvgTMU",
         "location": "Jongno-dong",
-        "geojson": [11110126, 11110138, 11110156, 11110161, 11110150],
+        "geojson": [
+            11110126,
+            11110138,
+            11110156,
+            11110161,
+            11110150
+        ],
         "color": "#ba1907",
         "quote": "Fading Commoners"
+    },
+    {
+        "title": "I Want Korea to Never Lose This",
+        "thumbnail": "https://i.ytimg.com/vi/PcTaDjJqXTk/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=PcTaDjJqXTk",
+        "id": "PcTaDjJqXTk",
+        "location": "Sindaebang-dong",
+        "geojson": [
+            11590109
+        ],
+        "color": "#6f07b0",
+        "quote": "Day [Boramae Park] & Night [Pojangmachas]",
+        "imageAlbum": "https://imgur.com/a/LXX8dwv"
     }
 ]

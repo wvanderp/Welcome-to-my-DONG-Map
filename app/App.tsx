@@ -12,19 +12,16 @@ import fixGeoJson from './utils/fixGeojson';
 import data from '../static/data.json';
 import dongsData from '../static/dongs.json';
 import videos from '../static/videos.json';
-import createDongCard from './components/DongCard';
 import { Dong } from '../types/Dong';
-import createMarkerCard from './components/markerCard';
+import DongCard from './components/DongCard';
+import MarkerCard from './components/MarkerCard';
 
 const initialPosition = { lat: 37.5291838748897, lng: 126.9818390908695 } as LatLngLiteral;
 
-const markers = data.features.map((feature) => {
-    const { geometry, properties } = feature;
+const markers = data.features.map((marker) => {
+    const { geometry, properties } = marker;
 
     const color = videos.find((video) => video.id === properties.video)?.color;
-
-    // @ts-expect-error
-    const markerCard = createMarkerCard(feature);
 
     return (
         <Marker
@@ -33,7 +30,8 @@ const markers = data.features.map((feature) => {
             icon={MarkerIcon(color)}
         >
             <Popup>
-                {markerCard}
+                {/* @ts-expect-error */}
+                <MarkerCard marker={marker} />
             </Popup>
         </Marker>
     );
@@ -41,14 +39,11 @@ const markers = data.features.map((feature) => {
 
 // @ts-expect-error
 const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['properties']>).features
-    .map((feature) => {
-        const { properties, geometry } = feature;
+    .map((dong) => {
+        const { properties, geometry } = dong;
 
         const video = videos.find((v) => v.geojson.includes(Number.parseInt(properties?.EMD_CD, 10)));
         const color = video?.color ?? 'gray';
-
-        // @ts-expect-error
-        const dongCard = createDongCard(feature, video);
 
         return (
             <Polygon
@@ -58,7 +53,8 @@ const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['
                 pathOptions={{ color }}
             >
                 <Popup>
-                    {dongCard}
+                    {/* @ts-expect-error */}
+                    <DongCard video={video} dong={dong} />
                 </Popup>
             </Polygon>
         );

@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import youtubedl from 'youtube-dl-exec';
 import fs from 'fs';
 import path from 'path';
@@ -5,6 +6,7 @@ import path from 'path';
 const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV';
 
 (async () => {
+    console.log('Collecting videos...');
     const playlist = await youtubedl(playlistUrl, {
         dumpSingleJson: true,
         noWarnings: true,

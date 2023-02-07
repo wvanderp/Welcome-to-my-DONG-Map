@@ -1,38 +1,140 @@
 /* eslint-disable no-console */
+
+import Ajv from 'ajv';
 import videos from '../static/videos.json';
+import markers from '../static/data.json';
 
-const dongRegex = /^[A-Z][a-z]+-dong$/g;
+const ajv = new Ajv();
+const dongRegex = '^[A-Z][a-z]+-dong$';
 
-for (const video of videos) {
-    // check if the location is XXX-dong
-    if (!video.location) {
-        console.error(`${video.id} (${video.location}): location is not set`);
+// use ajv to validate the schema
+
+const videoSchema = {
+    $schema: 'http://json-schema.org/draft-07/schema#',
+    type: 'array',
+    items: {
+        type: 'object',
+        properties: {
+            title: {
+                type: 'string'
+            },
+            thumbnail: {
+                type: 'string'
+            },
+            url: {
+                type: 'string',
+                pattern: '^https:\\/\\/www.youtube.com\\/watch\\?v=[\\w-]+$'
+            },
+            id: {
+                type: 'string'
+            },
+            location: {
+                type: 'string',
+                pattern: dongRegex
+            },
+            geojson: {
+                type: 'array',
+                items: {
+                    type: 'number'
+                },
+                minItems: 1
+            },
+            color: {
+                type: 'string',
+                pattern: '^#[\\dA-Fa-f]{6}$'
+            },
+            quote: {
+                type: 'string'
+            },
+            imageAlbum: {
+                type: 'string'
+            }
+        },
+        required: ['title', 'thumbnail', 'url', 'id', 'location', 'geojson', 'color', 'quote'],
+        additionalProperties: false
     }
+};
 
-    if (video.location && !dongRegex.test(video.location)) {
-        console.error(`${video.id} (${video.location}): ${video.location} is not in the right format`);
-    }
+const validateVideo = ajv.compile(videoSchema);
 
-    if (!video.geojson || video.geojson.length === 0) {
-        console.error(`${video.id} (${video.location}) is missing a geojsonID`);
-    }
+console.log('Linting videos.json...');
+const isVideosValid = validateVideo(videos);
+if (!isVideosValid) console.log(validateVideo.errors);
 
-    if (!video.color) {
-        console.log(`${video.id} (${video.location}) is missing a color`);
-    }
+// lint markers
 
-    // color should start with a #
-    if (!video.color.startsWith('#')) {
-        console.error(`${video.id} (${video.location}): color should start with a #`);
-    }
+const markerSchema = {
+    $schema: 'http://json-schema.org/draft-07/schema#',
+    type: 'object',
+    properties: {
+        type: {
+            type: 'string',
+            enum: ['FeatureCollection']
+        },
+        generator: {
+            type: 'string',
+            enum: ['JOSM']
+        },
+        features: {
+            type: 'array',
+            items: {
+                type: 'object',
+                properties: {
+                    type: {
+                        type: 'string',
+                        enum: ['Feature']
+                    },
+                    properties: {
+                        type: 'object',
+                        properties: {
+                            image: {
+                                type: 'string'
+                            },
+                            google: {
+                                type: 'string'
+                            },
+                            name: {
+                                type: 'string'
+                            },
+                            video: {
+                                type: 'string',
+                                pattern: '^[\\w-]+$'
+                            }
+                        },
+                        required: ['image', 'google', 'name', 'video'],
+                        additionalProperties: true
+                    },
+                    geometry: {
+                        type: 'object',
+                        properties: {
+                            type: {
+                                type: 'string',
+                                enum: ['Point']
+                            },
+                            coordinates: {
+                                type: 'array',
+                                items: {
+                                    type: 'number'
+                                },
+                                minItems: 2,
+                                maxItems: 2
+                            }
+                        },
+                        required: ['type', 'coordinates'],
+                        additionalProperties: false
+                    }
+                },
+                required: ['type', 'properties', 'geometry'],
+                additionalProperties: false
+            }
+        }
+    },
+    required: ['type', 'features'],
+    additionalProperties: false
+};
 
-    // it should have a thumbnail
-    if (!video.thumbnail) {
-        console.log(`${video.id} (${video.location}) is missing a thumbnail`);
-    }
+const validateMarkers = ajv.compile(markerSchema);
 
-    // all videos have a quote about the dong
-    if (!video.quote) {
-        console.log(`${video.id} (${video.location}) is missing the quote`);
-    }
-}
+console.log('Linting markers.json...');
+const isMarkersValid = validateMarkers(markers);
+if (!isMarkersValid) console.log(validateMarkers.errors);

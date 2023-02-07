@@ -14,6 +14,7 @@
   "homepage": "https://github.com/wvanderp/Welcome-to-my-DONG-Map#readme",
   "dependencies": {
     "@types/geojson": "^7946.0.10",
+    "ajv": "^8.12.0",
     "bootstrap": "^5.2.3",
     "leaflet": "^1.9.3",
     "react": "^18.2.0",
@@ -48,7 +49,7 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "app": "npm run clean && parcel serve app/index.html -p 3001",
+    "app": "npm run clean && parcel serve app/index.html",
     "build": "npm run clean &&  parcel build --no-source-maps --public-url /Welcome-to-my-DONG-Map --dist-dir ./gitBuild app/index.html",
     "lint": "npm run tsc && eslint --ext ts,tsx,json,js app/ collect/",
     "tsc": "tsc --noEmit",

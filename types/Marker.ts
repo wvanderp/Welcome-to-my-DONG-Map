@@ -4,16 +4,19 @@ export interface MarkerFile {
 }
 
 export interface Marker {
-    'type': 'Feature';
-    'geometry': {
-        'type': 'Point';
-        'coordinates': [number, number]
+    type: 'Feature';
+    geometry: {
+        type: 'Point';
+        coordinates: [number, number]
     };
-    'properties': {
-        'video': string;
-        'name': string;
-        'google'? : string;
+    properties: {
+        video: string;
+        name: string;
         image: string;
-        'name_korean'?: string;
+        name_korean?: string;
+
+        google? : string;
+        naver? : string;
+        kakao? : string;
     }
 }
