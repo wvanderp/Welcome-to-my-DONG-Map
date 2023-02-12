@@ -15,6 +15,7 @@ const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7
     });
 
     // @ts-expect-error - playlist.entries is not defined in the type definition because it's wrong
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const videos = playlist.entries.map((video: any) => ({
         title: video.title,
         thumbnail: video.thumbnail,

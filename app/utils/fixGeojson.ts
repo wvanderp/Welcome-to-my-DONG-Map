@@ -25,4 +25,4 @@ export default function fixGeoJson(geojson: FeatureCollection): FeatureCollectio
         }
     });
     return geojson;
-};
+}

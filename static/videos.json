@@ -185,5 +185,18 @@
         "color": "#6f07b0",
         "quote": "Day [Boramae Park] & Night [Pojangmachas]",
         "imageAlbum": "https://imgur.com/a/LXX8dwv"
+    },
+    {
+        "title": "Mok-dong isn’t the 2nd Daechi, but the 2nd Dutchie",
+        "thumbnail": "https://i.ytimg.com/vi_webp/fgjMWMvb6uI/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=fgjMWMvb6uI",
+        "id": "fgjMWMvb6uI",
+        "location": "Mok-dong",
+        "geojson": [
+            11470102
+        ],
+        "color": "#a65523",
+        "quote": "Daechi the second but with different + Dutch elements",
+        "imageAlbum": "https://imgur.com/a/OLGv4UL"
     }
 ]

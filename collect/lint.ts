@@ -1,8 +1,11 @@
 /* eslint-disable no-console */
 
 import Ajv from 'ajv';
+import fs from 'fs';
+import path from 'path';
+
 import videos from '../static/videos.json';
-import markers from '../static/data.json';
+import {MarkerFile} from '../types/Marker';
 
 const ajv = new Ajv();
 const dongRegex = '^[A-Z][a-z]+-dong$';
@@ -60,6 +63,19 @@ const validateVideo = ajv.compile(videoSchema);
 console.log('Linting videos.json...');
 const isVideosValid = validateVideo(videos);
 if (!isVideosValid) console.log(validateVideo.errors);
+
+// sort the markers first by video and then by name
+
+const markerPath = path.join(__dirname, '../static/data.json');
+const markers = JSON.parse(fs.readFileSync(markerPath, 'utf8')) as MarkerFile;
+
+markers.features.sort((a, b) => {
+    const aTxt = `${a.properties.video}-${a.properties.name}`;
+    const bTxt = `${b.properties.video}-${b.properties.name}`;
+    return aTxt.localeCompare(bTxt);
+});
+
+fs.writeFileSync(markerPath, JSON.stringify(markers, null, 2));
 
 // lint markers
 

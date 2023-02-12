@@ -62,10 +62,11 @@ const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['
 
 export default function App() {
     return (
-        <>
-            <h1>Welcome to my Dong Map</h1>
-            <p>A unofficial map of all the places visited in the Welcome to my dong series</p>
-
+        <div className="con">
+            <header>
+                <h1>Welcome to my Dong Map</h1>
+                <p>A unofficial map of all the places visited in the <a href="https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV">Welcome to my dong series</a></p>
+            </header>
             <MapContainer
                 center={initialPosition}
                 zoom={11}
@@ -80,6 +81,6 @@ export default function App() {
 
                 {dongs}
             </MapContainer>
-        </>
+        </div>
     );
 }

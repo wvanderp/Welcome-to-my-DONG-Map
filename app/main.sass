@@ -1,6 +1,22 @@
-#map
-  width: 100%
+$headerHeight: 100px
+$windowMargin: 10px
+$headerMargin: 10px
+
+html
+  height: 100%
+  margin: $windowMargin
+  
+.con
   height: 100vh
+  width: 100vw
+
+header
+  padding: $headerMargin
+  height: $headerHeight
+
+#map
+  height: calc(100vh - #{$headerHeight} - #{$windowMargin }* 2 - #{$headerMargin} *2 )
+  width: calc( 100vw - #{$windowMargin}* 2 - 15px)
 
 .leaflet-marker-icon
     background: rgba(0, 0, 0, 0) !important

@@ -1,466 +1,705 @@
-
 {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "name": "Message board",
-                "image": "https://i.imgur.com/bziBtS6.jpeg",
-                "google": "https://www.google.com/maps/@37.5867742,127.0299176,3a,60y,10.97h,94.52t/data=!3m6!1e1!3m4!1s9uyw6EGaHGO88Ko_EC_0xw!2e0!7i13312!8i6656"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03000768885,
-                    37.58690407672
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Hwagyesa Temple entrance",
-                "video": "q3oAFTLXpJw",
-                "image": "https://i.imgur.com/bEUGoFR.jpg",
-                "google": "https://goo.gl/maps/BhCBxyUDgVmrWk3s8"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00974896416,
-                    37.63314078701
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://www.google.com/maps/@37.489678,126.9093738,3a,75y,267.95h,77.48t/data=!3m6!1e1!3m4!1sq555WE88Jc-0H9mDbdig4A!2e0!7i13312!8i6656",
-                "name": "Tofu Ajumma",
-                "name_korean": "소자 아줌마",
-                "naver": "https://map.naver.com/v5/settings/config?c=19.37,0,0,2,dha&p=RCad4Ex95PMwZP3rGHR0Zw,-148.94,-10.67,80,Float",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/sd5IfKg.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.90928816728,
-                    37.48969866409
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "image": "https://i.imgur.com/zbPArXG.jpeg",
-                "name": "Main Administration Building",
-                "google": "https://goo.gl/maps/uG8M7MBF2QbPTL3K6"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03228354186,
-                    37.58955341706
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://goo.gl/maps/Dqx4K9mBjzQimefo6",
-                "video": "q3oAFTLXpJw",
-                "name": "Bukhansan Dulegil White Cloud Observatory",
-                "image": "https://i.imgur.com/eyUEsCG.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00978383288,
-                    37.62974421038
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "q3oAFTLXpJw",
-                "name": "World's most messiest shop",
-                "image": "https://i.imgur.com/vezDFea.jpg",
-                "google": "https://goo.gl/maps/BjZSLF6KcfrjxS8c9"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01049193673,
-                    37.64586807109
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "q3oAFTLXpJw",
-                "image": "https://i.imgur.com/skTUBTg.jpg",
-                "google": "https://goo.gl/maps/ak8rP5oMhnaGLpJ76",
-                "name": "April 19th National Cemetery"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00843870506,
-                    37.64755167566
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Old men playing games & Ajax fan club",
-                "google": "https://goo.gl/maps/X3yhKGvqDshWY1hZ7",
-                "naver": "https://map.naver.com/v5/entry/place/1893058486?c=16.33,0,0,2,dha",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/NmfdgW4.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.91618278489,
-                    37.49104156758
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "kakao": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1044321734&pan=27.9&tilt=1.8&zoom=3&urlLevel=2&urlX=480659&urlY=1107628",
-                "google": "https://goo.gl/maps/eWjaAVgqH1E1izXY6",
-                "name": "The view of the stream",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/4womsC7.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.91253363952,
-                    37.48695000111
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://goo.gl/maps/FYeqVbCK9HyPssL68",
-                "video": "q3oAFTLXpJw",
-                "image": "https://i.imgur.com/yRI7rlj.jpg",
-                "name": "Beautiful house"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01070450179,
-                    37.64677226305
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://www.google.com/maps/@37.6461724,127.0195447,3a,60y,55.43h,87.75t/data=!3m6!1e1!3m4!1sl2wgtn7S_dzaRkaygRRr5A!2e0!7i13312!8i6656",
-                "video": "q3oAFTLXpJw",
-                "image": "https://i.imgur.com/zZYASeJ.jpg",
-                "name": "SSamzie sport"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01962955229,
-                    37.64620999817
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "image": "https://i.imgur.com/xH4NFWc.jpg",
-                "video": "q3oAFTLXpJw",
-                "google": "https://goo.gl/maps/GraeN5xwfT114xkx5",
-                "name": "Hwagyesa Temple"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00751334295,
-                    37.63282535163
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "image": "https://i.imgur.com/chyI8BO.jpeg",
-                "google": "https://goo.gl/maps/BXxJ2hXuinNZMZmr7",
-                "name": "Bottasa temple"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03072249755,
-                    37.59063097827
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "PcTaDjJqXTk",
-                "name": "Pojangmacha ally",
-                "naver": "https://naver.me/G7DMjSTg",
-                "google": "https://goo.gl/maps/JGi1oAPo9e23CCXY8",
-                "image": "https://i.imgur.com/gTXa2y4.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.91330611438,
-                    37.48748420641
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://www.google.nl/maps/@37.4850924,126.9030887,3a,75y,182.54h,93.51t/data=!3m7!1e1!3m5!1s-gOcGZYHpOAalvT0nF7zFA!2e0!5s20151001T000000!7i13312!8i6656",
-                "name": "World's most complicated traffic sign",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/nwYeMTn.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.90365552768,
-                    37.48506535766
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "q3oAFTLXpJw",
-                "google": "https://goo.gl/maps/Rau2kyzUzT8RMfK48",
-                "name": "Unification House mural",
-                "image": "https://i.imgur.com/7NaJxRu.jpg"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01011240415,
-                    37.64111384723
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "google": "https://goo.gl/maps/RQX5v55Mrye2TKeT9",
-                "image": "https://i.imgur.com/r1QqW7J.png",
-                "name": "Library"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03318208188,
-                    37.58993598533
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "name": "Asiatic Research Center",
-                "google": "https://goo.gl/maps/U27Ecqcq2oCDsE7o6",
-                "image": "https://i.imgur.com/J4SIyot.jpeg"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03357368574,
-                    37.59095190604
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "image": "https://i.imgur.com/Bf6Xnef.jpeg",
-                "google": "https://www.google.com/maps/place/37%C2%B035'19.5%22N+127%C2%B001'57.3%22E/@37.5887511,127.0320308,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.58875!4d127.032578",
-                "name": "April 18th monument"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03261077270,
-                    37.58873088754
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Climbing Wall",
-                "google": "https://goo.gl/maps/aHomjrtNLtzD7eQz8",
-                "naver": "https://map.naver.com/v5/entry/address/14128809.978380907,4507712.822354771,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%8B%A0%EB%8C%80%EB%B0%A9%EB%8F%99%20722,jibun?c=18.17,0,0,0,dh",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/TgRWCMM.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.92134737700,
-                    37.49058294127
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "naver": "https://map.naver.com/v5/entry/place/37230374?c=17.26,0,0,2,dh",
-                "google": "https://goo.gl/maps/DPrMMn5Y1JKjuSsf7",
-                "name": "Skate park",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/UoRi9qB.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.92121058434,
-                    37.49096601769
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "image": "https://i.imgur.com/3W4sUSc.jpeg",
-                "name": "The famous gate of korea university",
-                "video": "sCuerkOYjOg",
-                "google": "https://www.google.com/maps/place/37%C2%B035'17.8%22N+127%C2%B002'02.9%22E/@37.5882764,127.0335826,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.5882753!4d127.0341298"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.03414365515,
-                    37.58824629288
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Fish restaurant",
-                "google": "https://goo.gl/maps/cjVD9sbtnX82CvUB9",
-                "video": "q3oAFTLXpJw",
-                "image": "https://i.imgur.com/dEuAzgw.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.00775273077,
-                    37.64609531473
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Boramae Park Air Park",
-                "google": "https://goo.gl/maps/18HWkxbHFAkSNsWj8",
-                "naver": "https://map.naver.com/v5/entry/place/21251978?c=17.96,0,0,2,dh",
-                "name_korean": "보라매공원에어파크",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/I9H6Nlu.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.91997542843,
-                    37.49431891560
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Boramae Park park pole",
-                "google": "https://goo.gl/maps/LiYPH3WTPNPiMuza7",
-                "naver": "https://map.naver.com/v5/entry/address/14128894.737041194,4508081.165862419,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%8B%A0%EB%8C%80%EB%B0%A9%EB%8F%99%20722,jibun?c=17.4,0,0,2,dh",
-                "video": "PcTaDjJqXTk",
-                "image": "https://i.imgur.com/1BI1HaS.png"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.92201524839,
-                    37.49323038381
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "google": "https://goo.gl/maps/FBJnCfBtN5kNaT7k7",
-                "video": "q3oAFTLXpJw",
-                "name": "Unification House",
-                "name_korean": "통일의집",
-                "image": "https://i.imgur.com/ieDOrLB.jpg"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.01028507136,
-                    37.64117119282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "video": "sCuerkOYjOg",
-                "name": "Temple entrance",
-                "google": "https://goo.gl/maps/GX229FMxKE31txnS7",
-                "image": "https://i.imgur.com/kXbo5hc.jpeg"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.02914334767,
-                    37.58902791222
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "image": "https://i.imgur.com/IbVRvIr.jpeg",
-                "video": "sCuerkOYjOg",
-                "google": "https://goo.gl/maps/gXfZZdrQ4eP4wvay5",
-                "name": "Nice view from up the temple"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.02821597323,
-                    37.59019953016
-                ]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "generator": "JOSM",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Academy square",
+        "video": "fgjMWMvb6uI",
+        "google": "https://www.google.com/maps/place/37%C2%B032'09.6%22N+126%C2%B052'44.2%22E/@37.535992,126.8784088,239m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.535992!4d126.878956",
+        "naver": "https://map.naver.com/v5/entry/address/14124116.748649057,4514086.553878095,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20907-21,jibun?c=18,0,0,0,dh",
+        "image": "https://i.imgur.com/34xg96d.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87894701689,
+          37.53595956433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14124007.032158937,4512839.199847816,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20915,jibun?c=16.24,0,0,2,dha&p=d42eW3B0-NdzvI78jWz6HA,14.05,0.52,37,Float",
+        "video": "fgjMWMvb6uI",
+        "name": "Art stones",
+        "google": "https://www.google.com/maps/@37.5301973,126.8758055,3a,60y,9.75h,89.22t/data=!3m6!1e1!3m4!1sNmGC0U1TzKjOixJK31_LEA!2e0!7i13312!8i6656",
+        "image": "https://i.imgur.com/lHLb0y3.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87587723002,
+          37.5303251545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14124007.032158937,4512839.199847816,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20915,jibun?c=16.24,0,0,2,dha&p=okSjBRlDh3nSJ5DosU1QjA,-163.12,-1.48,80,Float",
+        "google": "https://goo.gl/maps/PXfJCyw3c8YZeHob8",
+        "video": "fgjMWMvb6uI",
+        "name": "Building 602",
+        "image": "https://i.imgur.com/6LyP5l6.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88440263003,
+          37.53640196119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "First of the schools",
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/address/14123770.48937295,4513447.550455658,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20905-2,jibun?c=16.27,0,0,2,dh",
+        "google": "https://www.google.com/maps/@37.5310558,126.876184,3a,75y,146.94h,124.57t/data=!3m8!1e1!3m6!1sAF1QipM9y4Vio_l1HrOvNNJnckvkI_hAcVPdRa_rfLwz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM9y4Vio_l1HrOvNNJnckvkI_hAcVPdRa_rfLwz%3Dw203-h100-k-no-pi0-ya305.01346-ro-0-fo100!7i7200!8i3600",
+        "image": "https://i.imgur.com/U1a4Nnr.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87599390477,
+          37.53147164017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyundai department store",
+        "google": "https://goo.gl/maps/trihdeDuzqDrkKpLA",
+        "naver": "https://map.naver.com/v5/entry/place/12133944?c=18.12,0,0,0,dh",
+        "video": "fgjMWMvb6uI",
+        "kakao": "http://kko.to/4MB6ZuD7ls",
+        "image": "https://i.imgur.com/0sFw517.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87548160285,
+          37.52632827461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/f1FVCW5SjajnMVPv8",
+        "name": "Mini Eiffel tower",
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/address/14123928.33441497,4513936.846530313,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20906,jibun?c=17,0,0,2,dha&p=5bxHKjTK7Y5AdovtJB3Axw,24.64,4.49,37,Float",
+        "image": "https://i.imgur.com/7eDQ3tM.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87723845109,
+          37.53417399736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/address/14124116.837704655,4513251.870476915,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20914,jibun?c=18,0,0,2,dh",
+        "google": "https://goo.gl/maps/KoQ3iTpZyKQrNG8j8",
+        "name": "Mokdong Icerink",
+        "image": "https://i.imgur.com/udoGpvl.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87909856372,
+          37.53007628579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14124007.032158937,4512839.199847816,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20915,jibun?c=16.24,0,0,2,dha&p=SgwGhtfjdXmQ3D4S6Cf0Ow,-80.08,-0.04,37,Float",
+        "google": "https://www.google.com/maps/@37.5301568,126.8768155,3a,75y,270.58h,98.81t/data=!3m6!1e1!3m4!1sPN4ivF15zq1mth5KUo1Q1w!2e0!7i13312!8i6656",
+        "video": "fgjMWMvb6uI",
+        "name": "Narrow bicycle path",
+        "image": "https://i.imgur.com/m99swhd.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87651693553,
+          37.53023156421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "fgjMWMvb6uI",
+        "name": "Principals home",
+        "naver": "https://map.naver.com/v5/entry/address/14124687.14971989,4514353.200539073,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20909-12,jibun?c=18,0,0,0,dh",
+        "google": "https://www.google.com/maps/place/37%C2%B032'16.5%22N+126%C2%B053'03.2%22E/@37.53791,126.8836678,239m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.53791!4d126.884215",
+        "image": "https://i.imgur.com/MGKK0CP.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88423901528,
+          37.53792693409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/zY1twDDMSAFdA1rN7",
+        "name": "The church",
+        "naver": "https://map.naver.com/v5/entry/address/14123770.48937295,4513447.550455658,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20905-2,jibun?c=16.91,0,0,2,dha&p=uPty-Mqf9P7BMm4Aexw22Q,133.81,9.86,52,Float",
+        "video": "fgjMWMvb6uI",
+        "note": "including the view over Paris park",
+        "image": "https://i.imgur.com/Wd2DDYK.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87700777978,
+          37.53354335057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/place/18399356?c=14.89,0,0,2,dh",
+        "google": "https://goo.gl/maps/YMKe6RS8vJS5m2bL7",
+        "name": "The french build temple",
+        "image": "https://i.imgur.com/zVNidW1.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87846287951,
+          37.53545335595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/place/35853702?c=18,0,0,0,dh",
+        "google": "https://www.google.com/maps/place/McDonald's/@37.5371312,126.8810023,3a,75y,346.4h,103.11t/data=!3m8!1e1!3m6!1sAF1QipO49kCJHD8v3HoyFExLeBjrZ2Fo4-37U7pAziZL!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO49kCJHD8v3HoyFExLeBjrZ2Fo4-37U7pAziZL%3Dw203-h100-k-no-pi-20-ya320-ro-0-fo100!7i5376!8i2688!4m6!3m5!1s0x357c9ebd7d1b3145:0x5e8c01aac846c6f7!8m2!3d37.5371312!4d126.8810023!16s%2Fg%2F1tgj6s45",
+        "name": "The mok-dong Mcdonald's",
+        "image": "https://i.imgur.com/AOHWDn8.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88103914127,
+          37.53721017838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://www.google.com/maps/@37.5382667,126.8831828,3a,75y,161.69h,92.69t/data=!3m6!1e1!3m4!1sQPLYHdgyKFqRXVwbQltptw!2e0!7i13312!8i6656",
+        "name": "The school gate",
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/place/35853702?c=18,0,0,0,dha&p=Ej8IwbotT0rPNDINuNhC_g,137.14,-11.82,80,Float",
+        "image": "https://i.imgur.com/MmDGcwG.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88322916493,
+          37.53816195048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "view of the \"innocent\" river",
+        "video": "fgjMWMvb6uI",
+        "naver": "https://map.naver.com/v5/entry/address/14124007.032158937,4512839.199847816,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%20915,jibun?c=18,0,0,2,dh",
+        "google": "https://goo.gl/maps/hecRow9KJiXS1tqCA",
+        "image": "https://i.imgur.com/zFIEOXi.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.87817185849,
+          37.5270749142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "name": "Boramae Park Air Park",
+        "image": "https://i.imgur.com/I9H6Nlu.png",
+        "google": "https://goo.gl/maps/18HWkxbHFAkSNsWj8",
+        "naver": "https://map.naver.com/v5/entry/place/21251978?c=17.96,0,0,2,dh",
+        "name_korean": "보라매공원에어파크"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91997542843,
+          37.4943189156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "name": "Boramae Park park pole",
+        "google": "https://goo.gl/maps/LiYPH3WTPNPiMuza7",
+        "image": "https://i.imgur.com/1BI1HaS.png",
+        "naver": "https://map.naver.com/v5/entry/address/14128894.737041194,4508081.165862419,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%8B%A0%EB%8C%80%EB%B0%A9%EB%8F%99%20722,jibun?c=17.4,0,0,2,dh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92201524839,
+          37.49323038381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "name": "Climbing Wall",
+        "image": "https://i.imgur.com/TgRWCMM.png",
+        "google": "https://goo.gl/maps/aHomjrtNLtzD7eQz8",
+        "naver": "https://map.naver.com/v5/entry/address/14128809.978380907,4507712.822354771,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%8F%99%EC%9E%91%EA%B5%AC%20%EC%8B%A0%EB%8C%80%EB%B0%A9%EB%8F%99%20722,jibun?c=18.17,0,0,0,dh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.921347377,
+          37.49058294127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "name": "Old men playing games & Ajax fan club",
+        "google": "https://goo.gl/maps/X3yhKGvqDshWY1hZ7",
+        "image": "https://i.imgur.com/NmfdgW4.png",
+        "naver": "https://map.naver.com/v5/entry/place/1893058486?c=16.33,0,0,2,dha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91618278489,
+          37.49104156758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "image": "https://i.imgur.com/gTXa2y4.png",
+        "google": "https://goo.gl/maps/JGi1oAPo9e23CCXY8",
+        "naver": "https://naver.me/G7DMjSTg",
+        "name": "Pojangmacha ally"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91330611438,
+          37.48748420641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "naver": "https://map.naver.com/v5/entry/place/37230374?c=17.26,0,0,2,dh",
+        "google": "https://goo.gl/maps/DPrMMn5Y1JKjuSsf7",
+        "image": "https://i.imgur.com/UoRi9qB.png",
+        "name": "Skate park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92121058434,
+          37.49096601769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "image": "https://i.imgur.com/4womsC7.png",
+        "kakao": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1044321734&pan=27.9&tilt=1.8&zoom=3&urlLevel=2&urlX=480659&urlY=1107628",
+        "name": "The view of the stream",
+        "google": "https://goo.gl/maps/eWjaAVgqH1E1izXY6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91253363952,
+          37.48695000111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "image": "https://i.imgur.com/sd5IfKg.png",
+        "google": "https://www.google.com/maps/@37.489678,126.9093738,3a,75y,267.95h,77.48t/data=!3m6!1e1!3m4!1sq555WE88Jc-0H9mDbdig4A!2e0!7i13312!8i6656",
+        "name": "Tofu Ajumma",
+        "name_korean": "소자 아줌마",
+        "naver": "https://map.naver.com/v5/settings/config?c=19.37,0,0,2,dha&p=RCad4Ex95PMwZP3rGHR0Zw,-148.94,-10.67,80,Float"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90928816728,
+          37.48969866409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "PcTaDjJqXTk",
+        "google": "https://www.google.nl/maps/@37.4850924,126.9030887,3a,75y,182.54h,93.51t/data=!3m7!1e1!3m5!1s-gOcGZYHpOAalvT0nF7zFA!2e0!5s20151001T000000!7i13312!8i6656",
+        "image": "https://i.imgur.com/nwYeMTn.png",
+        "name": "World's most complicated traffic sign"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.90365552768,
+          37.48506535766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "q3oAFTLXpJw",
+        "image": "https://i.imgur.com/skTUBTg.jpg",
+        "google": "https://goo.gl/maps/ak8rP5oMhnaGLpJ76",
+        "name": "April 19th National Cemetery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00843870506,
+          37.64755167566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/FYeqVbCK9HyPssL68",
+        "image": "https://i.imgur.com/yRI7rlj.jpg",
+        "video": "q3oAFTLXpJw",
+        "name": "Beautiful house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01070450179,
+          37.64677226305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/Dqx4K9mBjzQimefo6",
+        "video": "q3oAFTLXpJw",
+        "image": "https://i.imgur.com/eyUEsCG.png",
+        "name": "Bukhansan Dulegil White Cloud Observatory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00978383288,
+          37.62974421038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fish restaurant",
+        "google": "https://goo.gl/maps/cjVD9sbtnX82CvUB9",
+        "video": "q3oAFTLXpJw",
+        "image": "https://i.imgur.com/dEuAzgw.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00775273077,
+          37.64609531473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "https://i.imgur.com/xH4NFWc.jpg",
+        "video": "q3oAFTLXpJw",
+        "name": "Hwagyesa Temple",
+        "google": "https://goo.gl/maps/GraeN5xwfT114xkx5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00751334295,
+          37.63282535163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "q3oAFTLXpJw",
+        "name": "Hwagyesa Temple entrance",
+        "image": "https://i.imgur.com/bEUGoFR.jpg",
+        "google": "https://goo.gl/maps/BhCBxyUDgVmrWk3s8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00974896416,
+          37.63314078701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://www.google.com/maps/@37.6461724,127.0195447,3a,60y,55.43h,87.75t/data=!3m6!1e1!3m4!1sl2wgtn7S_dzaRkaygRRr5A!2e0!7i13312!8i6656",
+        "video": "q3oAFTLXpJw",
+        "image": "https://i.imgur.com/zZYASeJ.jpg",
+        "name": "SSamzie sport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01962955229,
+          37.64620999817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/FBJnCfBtN5kNaT7k7",
+        "video": "q3oAFTLXpJw",
+        "name": "Unification House",
+        "name_korean": "통일의집",
+        "image": "https://i.imgur.com/ieDOrLB.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01028507136,
+          37.64117119282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "q3oAFTLXpJw",
+        "google": "https://goo.gl/maps/Rau2kyzUzT8RMfK48",
+        "name": "Unification House mural",
+        "image": "https://i.imgur.com/7NaJxRu.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01011240415,
+          37.64111384723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "q3oAFTLXpJw",
+        "name": "World's most messiest shop",
+        "image": "https://i.imgur.com/vezDFea.jpg",
+        "google": "https://goo.gl/maps/BjZSLF6KcfrjxS8c9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01049193673,
+          37.64586807109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "image": "https://i.imgur.com/Bf6Xnef.jpeg",
+        "google": "https://www.google.com/maps/place/37%C2%B035'19.5%22N+127%C2%B001'57.3%22E/@37.5887511,127.0320308,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.58875!4d127.032578",
+        "name": "April 18th monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0326107727,
+          37.58873088754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "name": "Asiatic Research Center",
+        "google": "https://goo.gl/maps/U27Ecqcq2oCDsE7o6",
+        "image": "https://i.imgur.com/J4SIyot.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03357368574,
+          37.59095190604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "image": "https://i.imgur.com/chyI8BO.jpeg",
+        "google": "https://goo.gl/maps/BXxJ2hXuinNZMZmr7",
+        "name": "Bottasa temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03072249755,
+          37.59063097827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "google": "https://goo.gl/maps/RQX5v55Mrye2TKeT9",
+        "image": "https://i.imgur.com/r1QqW7J.png",
+        "name": "Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03318208188,
+          37.58993598533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "name": "Main Administration Building",
+        "image": "https://i.imgur.com/zbPArXG.jpeg",
+        "google": "https://goo.gl/maps/uG8M7MBF2QbPTL3K6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03228354186,
+          37.58955341706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "name": "Message board",
+        "image": "https://i.imgur.com/bziBtS6.jpeg",
+        "google": "https://www.google.com/maps/@37.5867742,127.0299176,3a,60y,10.97h,94.52t/data=!3m6!1e1!3m4!1s9uyw6EGaHGO88Ko_EC_0xw!2e0!7i13312!8i6656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03000768885,
+          37.58690407672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "image": "https://i.imgur.com/IbVRvIr.jpeg",
+        "google": "https://goo.gl/maps/gXfZZdrQ4eP4wvay5",
+        "name": "Nice view from up the temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02821597323,
+          37.59019953016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "name": "Temple entrance",
+        "google": "https://goo.gl/maps/GX229FMxKE31txnS7",
+        "image": "https://i.imgur.com/kXbo5hc.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02914334767,
+          37.58902791222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "video": "sCuerkOYjOg",
+        "name": "The famous gate of korea university",
+        "image": "https://i.imgur.com/3W4sUSc.jpeg",
+        "google": "https://www.google.com/maps/place/37%C2%B035'17.8%22N+127%C2%B002'02.9%22E/@37.5882764,127.0335826,221m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.5882753!4d127.0341298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.03414365515,
+          37.58824629288
+        ]
+      }
+    }
+  ]
 }

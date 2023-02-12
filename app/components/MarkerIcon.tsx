@@ -2,6 +2,7 @@ import { divIcon } from 'leaflet';
 
 // icon from https://commons.wikimedia.org/wiki/File:Eo_circle_amber_white_circle.svg
 // @ts-expect-error svg files are not compatible with typescript
+// eslint-disable-next-line import/no-unresolved
 import icon from 'bundle-text:./icon.svg';
 
 const iconHeight = 512 / 32;
