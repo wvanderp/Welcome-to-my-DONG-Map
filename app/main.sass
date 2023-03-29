@@ -1,30 +1,38 @@
-$headerHeight: 100px
-$windowMargin: 10px
-$headerMargin: 10px
 
 html
   height: 100%
-  margin: $windowMargin
-  
-.con
+  padding: 0
+
+header
+  height: 88px
+  width: 325px
+  padding: 4px
+  margin: 10px
+
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1000
+
+  background-color: #fff
+  border-radius: 5px
+
+  h1
+    font-size: 1.5rem
+    font-weight: 500
+    margin: 0
+    padding: 0
+
+#map
   height: 100vh
   width: 100vw
 
-header
-  padding: $headerMargin
-  height: $headerHeight
-
-#map
-  height: calc(100vh - #{$headerHeight} - #{$windowMargin }* 2 - #{$headerMargin} *2 )
-  width: calc( 100vw - #{$windowMargin}* 2 - 15px)
-
 .leaflet-marker-icon
-    background: rgba(0, 0, 0, 0) !important
-    border: none !important
+  background: rgba(0, 0, 0, 0) !important
+  border: none !important
 
-    div svg path
-        fill: #000
-
+  div svg path
+    fill: #000
 
 .Card
   img

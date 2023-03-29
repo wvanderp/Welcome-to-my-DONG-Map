@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, Polygon } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polygon, ZoomControl } from 'react-leaflet';
 import { LatLngLiteral } from 'leaflet';
 import { FeatureCollection } from 'geojson';
 
@@ -65,17 +65,20 @@ export default function App() {
         <div className="con">
             <header>
                 <h1>Welcome to my Dong Map</h1>
-                <p>A unofficial map of all the places visited in the <a href="https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV">Welcome to my dong series</a></p>
+                <p>An unofficial map of all the places visited in the <a href="https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV">Welcome to my dong series</a></p>
             </header>
             <MapContainer
                 center={initialPosition}
                 zoom={11}
                 id={'map'}
+                zoomControl={false}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+
+                <ZoomControl position="bottomright" />
 
                 {markers}
 

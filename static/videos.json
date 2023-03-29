@@ -198,5 +198,57 @@
         "color": "#a65523",
         "quote": "Daechi the second but with different + Dutch elements",
         "imageAlbum": "https://imgur.com/a/OLGv4UL"
+    },
+    {
+        "title": "Yonsei University's Pretty Face and Ugly Face",
+        "thumbnail": "https://i.ytimg.com/vi_webp/cPqGoAaXMxU/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=cPqGoAaXMxU",
+        "id": "cPqGoAaXMxU",
+        "location": "Sinchon-dong",
+        "geojson": [
+            11410116,
+            11410114
+        ],
+        "color": "#e05a2d",
+        "quote": "Yonsei Playground"
+    },
+    {
+        "title": "Where the cruel Ending of the Korean President is Buried",
+        "thumbnail": "https://i.ytimg.com/vi_webp/N-n4AA6qWlI/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=N-n4AA6qWlI",
+        "id": "N-n4AA6qWlI",
+        "location": "Gungjeong-dong",
+        "geojson": [
+            11110103
+        ],
+        "color": "#2bd9f0",
+        "quote": "Here Park Chung-hee was killed"
+    },
+    {
+        "title": "I went to the Capital of Korean Shamanism",
+        "thumbnail": "https://i.ytimg.com/vi/rN8Rkg0EURY/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=rN8Rkg0EURY",
+        "id": "rN8Rkg0EURY",
+        "location": "Muak-dong",
+        "geojson": [
+            11110187
+        ],
+        "color": "#750627",
+        "quote": "Korea's capital of Shamanism"
+    },
+    {
+        "title": "This is how the elite of Korea live",
+        "thumbnail": "https://i.ytimg.com/vi_webp/Dv8HSb2cXAU/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=Dv8HSb2cXAU",
+        "id": "Dv8HSb2cXAU",
+        "location": "Hyehwa-dong",
+        "geojson": [
+            11110169,
+            11110170,
+            11110171,
+            11110173
+        ],
+        "color": "#332fed",
+        "quote": "sungkyunkwan Uni & The elite"
     }
 ]
