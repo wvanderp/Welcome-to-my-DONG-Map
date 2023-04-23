@@ -18,5 +18,6 @@ export interface Marker {
         google? : string;
         naver? : string;
         kakao? : string;
+        wikipedia? : string;
     }
 }

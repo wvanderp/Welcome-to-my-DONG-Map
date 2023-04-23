@@ -3,16 +3,19 @@ import { Marker } from '../../types/Marker';
 
 // @ts-expect-error y u not know about svg
 import googleMapsIcon from '../../static/Google_Maps_icon.svg';
-// @ts-expect-error y u not know about svg
+// @ts-expect-error y u not know about png
 import naverMapsIcon from '../../static/naver.png';
-// @ts-expect-error y u not know about svg
+// @ts-expect-error y u not know about png
 import kakaoMapsIcon from '../../static/kakao.png';
+// @ts-expect-error y u not know about svg
+import wikipediaIcon from '../../static/Wikipedia.svg';
 
-type providers = 'google' | 'naver' | 'kakao';
+type providers = 'google' | 'naver' | 'kakao' | 'Wikipedia';
 const iconLinks: Record<providers, string> = {
     google: googleMapsIcon,
     naver: naverMapsIcon,
-    kakao: kakaoMapsIcon
+    kakao: kakaoMapsIcon,
+    Wikipedia: wikipediaIcon
 };
 
 function Icon(props: {
@@ -39,6 +42,7 @@ export default function MarkerCard(props: {
             <Icon iconType="google" link={props.marker.properties.google} />
             <Icon iconType="naver" link={props.marker.properties.naver} />
             <Icon iconType="kakao" link={props.marker.properties.kakao} />
+            <Icon iconType="Wikipedia" link={props.marker.properties.wikipedia} />
         </div>
     );
 }

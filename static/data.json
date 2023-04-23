@@ -78,7 +78,8 @@
         "naver": "https://map.naver.com/v5/entry/place/12133944?c=18.12,0,0,0,dh",
         "video": "fgjMWMvb6uI",
         "name": "Hyundai department store",
-        "kakao": "http://kko.to/4MB6ZuD7ls"
+        "kakao": "http://kko.to/4MB6ZuD7ls",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hyundai_Department_Store#:~:text=gu%2C%20Seoul-,Mokdong%20Store,-(%EB%AA%A9%EB%8F%99%EC%A0%90)%20in%20Yangcheon"
       },
       "geometry": {
         "type": "Point",
@@ -245,7 +246,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Blue house compound",
+        "name": "Blue House compound",
         "wikipedia": "https://en.wikipedia.org/wiki/Blue_House",
         "image": "https://i.imgur.com/6LYrr8G.jpg",
         "google": "https://goo.gl/maps/YS6KQGLjV6zgBZdYA",

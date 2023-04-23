@@ -13,7 +13,7 @@ export default function MarkerIcon(color?: string) {
     logo.innerHTML = icon;
 
     if (logo.querySelector('svg path')) {
-        // @ts-expect-error I already checked you just dont want to cooperate
+        // @ts-expect-error I already checked you just don't want to cooperate
         logo.querySelector('path').style.fill = color ?? 'black';
     }
 
