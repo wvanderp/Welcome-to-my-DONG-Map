@@ -53,7 +53,8 @@
     "build": "npm run clean &&  parcel build --no-source-maps --public-url /Welcome-to-my-DONG-Map --dist-dir ./gitBuild app/index.html",
     "lint": "npm run tsc && eslint --ext ts,tsx,json,js app/ collect/",
     "tsc": "tsc --noEmit",
-    "collect": "ts-node collect && ts-node collect/lint.ts",
+    "collect": "ts-node collect && npm run lintData",
+    "lintData": "ts-node collect/lint.ts",
     "clean": "rimraf .parcel-cache dist"
   }
 }

@@ -222,7 +222,8 @@
             11110103
         ],
         "color": "#2bd9f0",
-        "quote": "Here Park Chung-hee was killed"
+        "quote": "Here Park Chung-hee was killed",
+        "imageAlbum": "https://imgur.com/a/XvLPA2a"
     },
     {
         "title": "I went to the Capital of Korean Shamanism",
@@ -250,5 +251,30 @@
         ],
         "color": "#332fed",
         "quote": "sungkyunkwan Uni & The elite"
+    },
+    {
+        "title": "Why Seongsu became a hipster paradise?",
+        "thumbnail": "https://i.ytimg.com/vi_webp/KXd9b7j3Ahw/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=KXd9b7j3Ahw",
+        "id": "KXd9b7j3Ahw",
+        "location": "Seongsu-dong",
+        "geojson": [
+            11200114,
+            11200115
+        ],
+        "color": "#f2e444",
+        "quote": "Brooklyn of Korea"
+    },
+    {
+        "title": "The Old Korea that ALL foreigners Love",
+        "thumbnail": "https://i.ytimg.com/vi_webp/qgAIqUfbe5M/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=qgAIqUfbe5M",
+        "id": "qgAIqUfbe5M",
+        "location": "Sungin-dong",
+        "geojson": [
+            11110175
+        ],
+        "color": "#f2449b",
+        "quote": "Dongmyo Flea Market"
     }
 ]
