@@ -21,13 +21,19 @@ const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7
         thumbnail: video.thumbnail,
         url: video.webpage_url,
         id: video.id,
-        location: video.tags.find((tag: string) => tag.endsWith('dong') && !tag.startsWith('Welcome'))
+        location: video.tags.find((tag: string) => tag.toLowerCase().endsWith('dong') && !tag.toLowerCase().startsWith('welcome')) ?? '',
+        geojson: [],
+        color: '',
+        quote: ''
     })) as {
         title: string,
         thumbnail: string,
         url: string,
         id: string,
-        location: string
+        location: string,
+        geojson: number[],
+        color: string,
+        quote: string
     }[];
 
     const videoFilePath = path.join(__dirname, '../static/videos.json');
@@ -39,8 +45,8 @@ const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7
             continue;
         }
 
-        // skip the intro video
-        if (video.id === 'a3A2YOlfVos') {
+        // skip the intro video and the patron video
+        if (video.id === 'a3A2YOlfVos' || video.id === 'tOWWbkwJF_A') {
             continue;
         }
 

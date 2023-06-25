@@ -47,9 +47,16 @@ const videoSchema = {
                 pattern: '^#[\\dA-Fa-f]{6}$'
             },
             quote: {
-                type: 'string'
+                type: 'string',
+                minLength: 1
             },
             imageAlbum: {
+                type: 'string'
+            },
+            colorNote: {
+                type: 'string'
+            },
+            quoteNote: {
                 type: 'string'
             }
         },
@@ -63,6 +70,30 @@ const validateVideo = ajv.compile(videoSchema);
 console.log('Linting videos.json...');
 const isVideosValid = validateVideo(videos);
 if (!isVideosValid) console.log(validateVideo.errors);
+
+// check for duplicate video ids
+
+const videoIds = new Set<string>();
+const duplicateVideoIds = new Set<string>();
+
+for (const video of videos) {
+    if (videoIds.has(video.id)) duplicateVideoIds.add(video.id);
+    else videoIds.add(video.id);
+}
+
+if (duplicateVideoIds.size > 0) {
+    console.log('Duplicate video ids found:');
+    console.log(duplicateVideoIds);
+}
+
+// notify of color and quote notes
+
+const colorNoteVideos = videos.filter((video) => video.colorNote);
+
+if (colorNoteVideos.length > 0) {
+    console.log('Color notes found:');
+    console.log(colorNoteVideos.map((video) => video.id));
+}
 
 // sort the markers first by video and then by name
 

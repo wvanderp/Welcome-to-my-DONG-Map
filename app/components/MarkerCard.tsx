@@ -34,9 +34,16 @@ function Icon(props: {
 export default function MarkerCard(props: {
     marker: Marker
 }) {
+    const names = [
+        props.marker.properties.name_korean,
+        props.marker.properties.official_name,
+        props.marker.properties.official_name_korean
+    ].filter((name) => name !== undefined);
+
     return (
         <div className="Card">
             <h2>{props.marker.properties.name}</h2>
+            {names.length > 0 && (<h3>{names.join(' | ')}</h3>)}
             <img src={props.marker.properties.image} alt={props.marker.properties.name} />
 
             <Icon iconType="google" link={props.marker.properties.google} />

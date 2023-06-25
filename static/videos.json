@@ -276,5 +276,52 @@
         ],
         "color": "#f2449b",
         "quote": "Dongmyo Flea Market"
+    },
+    {
+        "title": "A Korean Market that even Gangsters keep their hands off",
+        "thumbnail": "https://i.ytimg.com/vi/EdsYNq1oVoI/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=EdsYNq1oVoI",
+        "id": "EdsYNq1oVoI",
+        "location": "Majang-dong",
+        "geojson": [
+            11200105
+        ],
+        "color": "#f7fad2",
+        "quote": "Korea's largest meat market"
+    },
+    {
+        "title": "Why Seoul's Temple Enshrines Korea's \"Great Dictator\"",
+        "thumbnail": "https://i.ytimg.com/vi/8VlffeEXSGo/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=8VlffeEXSGo",
+        "id": "8VlffeEXSGo",
+        "location": "Ui-dong",
+        "geojson": [11305104],
+        "color": "#ffffff",
+        "colorNote": "no color was given in the video",
+        "quote": "Great Temple & Great entrance to Bukhansan National Park",
+        "imageAlbum": "https://imgur.com/gallery/4WV2RzH"
+    },
+    {
+        "title": "The Seoul where you see the difference between Rich and Poor",
+        "thumbnail": "https://i.ytimg.com/vi_webp/hs3h_HU6Oh4/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=hs3h_HU6Oh4",
+        "id": "hs3h_HU6Oh4",
+        "location": "Gaepo-dong",
+        "geojson": [11680103],
+        "color": "#ffffff",
+        "colorNote": "no color was given in the video",
+        "quote": "Neighborhood with two opposite worlds",
+        "quoteNote": "There was no official quote in the video"
+
+    },
+    {
+        "title": "Why can it be shameful to live in Goshiwon?",
+        "thumbnail": "https://i.ytimg.com/vi_webp/4hu0OayuSxk/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=4hu0OayuSxk",
+        "id": "4hu0OayuSxk",
+        "location": "Noryangjin-dong",
+        "geojson": [11590101],
+        "color": "#60f549",
+        "quote": "Fish Market & Civil Servant Academy grounds"
     }
 ]

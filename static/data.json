@@ -5,6 +5,234 @@
     {
       "type": "Feature",
       "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14138325.245627392,4531650.080976794,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%B6%81%EA%B5%AC%20%EC%9A%B0%EC%9D%B4%EB%8F%99%20265,jibun?c=18.56,0,0,2,dh",
+        "google": "https://goo.gl/maps/Aq2c25ygWZN5uSXH7",
+        "name": "Bukhansan National park UI ranger station",
+        "video": "8VlffeEXSGo",
+        "name_korean": "북한산국립공원 관리사무소",
+        "image": "https://i.imgur.com/obKY9n5.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00682334535,
+          37.66111043717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/GqhCANKJbux1kodbA",
+        "name": "Carving made by the master him self",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/KRcSmr9.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98930784926,
+          37.6548845446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/place/36559792",
+        "official_name": "북한산클라이밍센터",
+        "name": "climbing wall",
+        "google": "https://goo.gl/maps/oH4ixJt7LXuLXNsT7",
+        "official_name:en": "Bukhansan Climbing Center",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/KQcVjEs.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00800150499,
+          37.66204788627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/place/36883148",
+        "name": "Downtown UI-dong",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/DNLTzFg.jpg",
+        "google": "https://goo.gl/maps/tn1f12fmwmiXQhUi6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01015397772,
+          37.66262861008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Entrance to the temple",
+        "google": "https://goo.gl/maps/71m1k5mUSjoN3aAC6",
+        "naver": "https://map.naver.com/v5/entry/address/14136630.651282948,4531091.613699768,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%B6%81%EA%B5%AC%20%EC%9A%B0%EC%9D%B4%EB%8F%99%20289-1,jibun?c=17,0,0,2,dh",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/09MVzQc.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99153408274,
+          37.6570526246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14138325.245627392,4531650.080976794,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%B6%81%EA%B5%AC%20%EC%9A%B0%EC%9D%B4%EB%8F%99%20265,jibun?c=18.56,0,0,2,dh",
+        "google": "https://goo.gl/maps/Aq2c25ygWZN5uSXH7",
+        "name": "Hiking map",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/Dg1PF1o.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00670197472,
+          37.66102019571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/RWVpCgxyAT3weEDc7",
+        "name": "Not The founder™ but great master Cheongdam of modern times",
+        "naver": "https://map.naver.com/v5/entry/place/18618912",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/pC5lzbO.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989924758,
+          37.65618253297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/bM6hpLaDKzPtn4wX8",
+        "naver": "https://map.naver.com/v5/entry/place/18617839",
+        "name": "Other Red brick Building",
+        "video": "8VlffeEXSGo",
+        "official_name": "Cheondogyo Changshuwon",
+        "image": "https://i.imgur.com/EH7HU4O.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006487398,
+          37.66052651699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Chung Hee shrine",
+        "google": "https://goo.gl/maps/o1rZjQBA695As3cU7",
+        "naver": "https://map.naver.com/v5/entry/place/1340159768",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/qYQU866.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98921263084,
+          37.65534534653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "google": "https://goo.gl/maps/wteQKfpmnw2JBEhQ8",
+        "name": "Red building",
+        "naver": "https://map.naver.com/v5/entry/place/17931998",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/oTW895F.jpg",
+        "official_name_korean": "삼양교통",
+        "official_name": "Samyang Transportation company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.01196446881,
+          37.6631658021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/address/14138325.245627392,4531650.080976794,%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%B6%81%EA%B5%AC%20%EC%9A%B0%EC%9D%B4%EB%8F%99%20265,jibun?c=18.56,0,0,2,dh",
+        "name": "Spice Ajumma",
+        "google": "https://goo.gl/maps/Aq2c25ygWZN5uSXH7",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/VHWdNmv.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00660139188,
+          37.66101276401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Top of the building mountain view",
+        "naver": "https://map.naver.com/v5/entry/place/36559792",
+        "official_name": "북한산클라이밍센터",
+        "google": "https://goo.gl/maps/oH4ixJt7LXuLXNsT7",
+        "official_name:en": "Bukhansan Climbing Center",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/8hjXC9M.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00787812337,
+          37.66213812702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naver": "https://map.naver.com/v5/entry/place/18618203",
+        "google": "https://goo.gl/maps/sh7GNPQ3iionbppj8",
+        "name": "where to eat? Choose wisely",
+        "video": "8VlffeEXSGo",
+        "image": "https://i.imgur.com/9iEHyaL.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00666308135,
+          37.66168161495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "image": "https://i.imgur.com/34xg96d.png",
         "google": "https://www.google.com/maps/place/37%C2%B032'09.6%22N+126%C2%B052'44.2%22E/@37.535992,126.8784088,239m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.535992!4d126.878956",
         "video": "fgjMWMvb6uI",
@@ -76,10 +304,10 @@
         "image": "https://i.imgur.com/0sFw517.png",
         "google": "https://goo.gl/maps/trihdeDuzqDrkKpLA",
         "naver": "https://map.naver.com/v5/entry/place/12133944?c=18.12,0,0,0,dh",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hyundai_Department_Store#:~:text=gu%2C%20Seoul-,Mokdong%20Store,-(%EB%AA%A9%EB%8F%99%EC%A0%90)%20in%20Yangcheon",
         "video": "fgjMWMvb6uI",
         "name": "Hyundai department store",
-        "kakao": "http://kko.to/4MB6ZuD7ls",
-        "wikipedia": "https://en.wikipedia.org/wiki/Hyundai_Department_Store#:~:text=gu%2C%20Seoul-,Mokdong%20Store,-(%EB%AA%A9%EB%8F%99%EC%A0%90)%20in%20Yangcheon"
+        "kakao": "http://kko.to/4MB6ZuD7ls"
       },
       "geometry": {
         "type": "Point",
@@ -246,11 +474,11 @@
     {
       "type": "Feature",
       "properties": {
+        "google": "https://goo.gl/maps/YS6KQGLjV6zgBZdYA",
+        "video": "N-n4AA6qWlI",
         "name": "Blue House compound",
         "wikipedia": "https://en.wikipedia.org/wiki/Blue_House",
-        "image": "https://i.imgur.com/6LYrr8G.jpg",
-        "google": "https://goo.gl/maps/YS6KQGLjV6zgBZdYA",
-        "video": "N-n4AA6qWlI"
+        "image": "https://i.imgur.com/6LYrr8G.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -263,12 +491,12 @@
     {
       "type": "Feature",
       "properties": {
+        "naver": "https://naver.me/Flz0C5tH",
         "name": "Chilgung Palace",
+        "video": "N-n4AA6qWlI",
         "wikipedia": "https://en.wikipedia.org/wiki/Blue_House#:~:text=Chilgung%20is%20a%20Joseon%2Dera%20shrine",
         "google": "https://goo.gl/maps/bYN9ZffsbrAZ8N2p9",
-        "naver": "https://naver.me/Flz0C5tH",
-        "image": "https://i.imgur.com/dlyhQQ5.jpg",
-        "video": "N-n4AA6qWlI"
+        "image": "https://i.imgur.com/dlyhQQ5.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -281,11 +509,11 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Entrance to the Apostolic Nunciature",
-        "google": "https://goo.gl/maps/byfkk2qEUcZGxpCN8",
         "naver": "https://naver.me/IFF0gFaH",
-        "wikipedia": "https://en.wikipedia.org/wiki/Apostolic_Nunciature_to_South_Korea",
+        "google": "https://goo.gl/maps/byfkk2qEUcZGxpCN8",
         "video": "N-n4AA6qWlI",
+        "name": "Entrance to the Apostolic Nunciature",
+        "wikipedia": "https://en.wikipedia.org/wiki/Apostolic_Nunciature_to_South_Korea",
         "image": "https://i.imgur.com/D8Nb8xS.jpg"
       },
       "geometry": {
@@ -299,11 +527,11 @@
     {
       "type": "Feature",
       "properties": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Blue_House#:~:text=Mugunghwa%20Garden%20is%20a%20civic%20park",
         "name": "Mugunghwa Garden",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blue_House#:~:text=Mugunghwa%20Garden%20is%20a%20civic%20park",
         "google": "https://goo.gl/maps/tRJUKNCjET7etw6t9",
-        "naver": "https://naver.me/GGhE7VXT",
         "video": "N-n4AA6qWlI",
+        "naver": "https://naver.me/GGhE7VXT",
         "image": "https://i.imgur.com/zmojaR7.jpg"
       },
       "geometry": {
@@ -317,11 +545,11 @@
     {
       "type": "Feature",
       "properties": {
-        "video": "N-n4AA6qWlI",
-        "name": "Policeman info board",
         "google": "https://goo.gl/maps/uxxMgQYoGqwDQDP86",
+        "image": "https://i.imgur.com/35enTIj.jpg",
         "naver": "https://naver.me/GMvamXvs",
-        "image": "https://i.imgur.com/35enTIj.jpg"
+        "video": "N-n4AA6qWlI",
+        "name": "Policeman info board"
       },
       "geometry": {
         "type": "Point",
@@ -334,11 +562,11 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Safehouse placard",
+        "image": "https://i.imgur.com/Rlux9ZJ.jpg",
         "naver": "https://naver.me/FSOtwUIH",
         "google": "https://goo.gl/maps/uBZCsBaootj2MYvX6",
-        "image": "https://i.imgur.com/Rlux9ZJ.jpg",
-        "video": "N-n4AA6qWlI"
+        "video": "N-n4AA6qWlI",
+        "name": "Safehouse placard"
       },
       "geometry": {
         "type": "Point",
@@ -353,8 +581,8 @@
       "properties": {
         "name": "Tree planted by president kim dae jung and his wife Rhee Hee-hoh",
         "image": "https://i.imgur.com/wqdahAg.jpeg",
-        "google": "https://goo.gl/maps/ALqwd7povDKER5L69",
-        "video": "N-n4AA6qWlI"
+        "video": "N-n4AA6qWlI",
+        "google": "https://goo.gl/maps/ALqwd7povDKER5L69"
       },
       "geometry": {
         "type": "Point",

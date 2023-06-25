@@ -7,4 +7,6 @@ export default interface Video {
     'geojson': number[]
     'color': string;
     'quote': string;
+    'colorNote'?: string;
+    'quoteNote'?: string
 }
