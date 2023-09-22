@@ -4,11 +4,27 @@ import Ajv from 'ajv';
 import fs from 'fs';
 import path from 'path';
 
-import videos from '../static/videos.json';
 import {MarkerFile} from '../types/Marker';
+import Video from '../types/Video';
+
+function sortKeys<P extends object>(object: P): P {
+    // @ts-expect-error
+    const sortedObject: P = {};
+    for (const key of Object.keys(object).sort()) {
+    // @ts-expect-error
+        sortedObject[key] = object[key];
+    }
+    return sortedObject;
+}
 
 const ajv = new Ajv();
 const dongRegex = '^[A-Z][a-z]+-dong$';
+
+// ----------------------------------------------------------------------------------------------
+// videos
+
+const videoPath = path.join(__dirname, '../static/videos.json');
+let videos = JSON.parse(fs.readFileSync(videoPath, 'utf8')) as Video[];
 
 // use ajv to validate the schema
 
@@ -95,6 +111,13 @@ if (colorNoteVideos.length > 0) {
     console.log(colorNoteVideos.map((video) => video.id));
 }
 
+// sort the keys of the object
+videos = videos.map((video) => sortKeys(video));
+
+// write the videos back to the file
+fs.writeFileSync(videoPath, JSON.stringify(videos, null, 2));
+
+// ----------------------------------------------------------------------------------------------
 // sort the markers first by video and then by name
 
 const markerPath = path.join(__dirname, '../static/data.json');
@@ -105,6 +128,14 @@ markers.features.sort((a, b) => {
     const bTxt = `${b.properties.video}-${b.properties.name}`;
     return aTxt.localeCompare(bTxt);
 });
+
+// sort the keys of the object
+
+markers.features = markers.features.map((feature) => ({
+    type: feature.type,
+    properties: sortKeys(feature.properties),
+    geometry: feature.geometry
+}));
 
 fs.writeFileSync(markerPath, JSON.stringify(markers, null, 2));
 
@@ -141,7 +172,8 @@ const markerSchema = {
                                 type: 'string'
                             },
                             name: {
-                                type: 'string'
+                                type: 'string',
+                                pattern: '^[A-Z].+$'
                             },
                             video: {
                                 type: 'string',
@@ -152,23 +184,14 @@ const markerSchema = {
                         additionalProperties: true
                     },
                     geometry: {
+                        title: 'Geometry',
                         type: 'object',
                         properties: {
                             type: {
                                 type: 'string',
-                                enum: ['Point']
-                            },
-                            coordinates: {
-                                type: 'array',
-                                items: {
-                                    type: 'number'
-                                },
-                                minItems: 2,
-                                maxItems: 2
+                                enum: ['Point', 'LineString']
                             }
-                        },
-                        required: ['type', 'coordinates'],
-                        additionalProperties: false
+                        }
                     }
                 },
                 required: ['type', 'properties', 'geometry'],

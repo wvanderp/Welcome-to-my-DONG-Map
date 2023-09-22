@@ -1,15 +1,9 @@
-export interface MarkerFile {
-    type: 'FeatureCollection';
-    features: Marker[];
-}
+import { GeoJSON } from 'geojson';
 
-export interface Marker {
-    type: 'Feature';
-    geometry: {
-        type: 'Point';
-        coordinates: [number, number]
-    };
-    properties: {
+export type MarkerFile = GeoJSON.FeatureCollection<GeoJSON.Point | GeoJSON.LineString, MarkerProperties>;
+
+export interface MarkerProperties {
+
         video: string; // video id of the video which this marker is associated with
         image: string; // screenshot of the video at the time of the marker
 
@@ -22,5 +16,4 @@ export interface Marker {
         naver? : string; // naver maps link
         kakao? : string; // kakao maps link
         wikipedia? : string; // wikipedia link
-    }
 }

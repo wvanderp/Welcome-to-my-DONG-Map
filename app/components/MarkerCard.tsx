@@ -1,5 +1,5 @@
 import React from 'react';
-import { Marker } from '../../types/Marker';
+import {MarkerFile} from '../../types/Marker';
 
 // @ts-expect-error y u not know about svg
 import googleMapsIcon from '../../static/Google_Maps_icon.svg';
@@ -32,7 +32,7 @@ function Icon(props: {
 }
 
 export default function MarkerCard(props: {
-    marker: Marker
+    marker: MarkerFile['features'][0]
 }) {
     const names = [
         props.marker.properties.name_korean,

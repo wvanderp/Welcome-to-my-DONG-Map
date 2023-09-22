@@ -4,6 +4,11 @@ import fs from 'fs';
 import path from 'path';
 
 const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV';
+const ignoredVideos = new Set([
+    'a3A2YOlfVos', // intro video
+    'tOWWbkwJF_A', // patron video
+    'ScIt8RNRdjE' // cow brain video
+]);
 
 (async () => {
     console.log('Collecting videos...');
@@ -45,8 +50,8 @@ const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7
             continue;
         }
 
-        // skip the intro video and the patron video
-        if (video.id === 'a3A2YOlfVos' || video.id === 'tOWWbkwJF_A') {
+        // skip the videos that are not directly related to a dong
+        if (ignoredVideos.has(video.id)) {
             continue;
         }
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Dong } from '../../types/Dong';
+import { DongProperties } from '../../types/Dong';
 import Video from '../../types/Video';
 
 export default function DongCard(props: {
-    dong: Dong,
+    dong: DongProperties,
     video: Video | undefined
 }) {
     const videoPart = props.video && (
@@ -13,6 +13,7 @@ export default function DongCard(props: {
             <a href={props.video.url} target="_blank" rel="noreferrer">
                 <img src={props.video.thumbnail} alt={props.video.title} />
             </a>
+
             {/* title of the props.video */}
             <a href={props.video.url} target="_blank" rel="noreferrer">
 
@@ -27,7 +28,7 @@ export default function DongCard(props: {
     return (
         <div className="Card">
             {/* name of the dong */}
-            <h2>{props.dong.properties.EMD_ENG_NM}</h2>
+            <h2>{props.dong.EMD_ENG_NM}</h2>
 
             {videoPart}
         </div>

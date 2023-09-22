@@ -1,46 +1,30 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, Polygon, ZoomControl } from 'react-leaflet';
+import { MapContainer, TileLayer, Popup, Polygon, ZoomControl } from 'react-leaflet';
 import { LatLngLiteral } from 'leaflet';
-import { FeatureCollection } from 'geojson';
 
 import 'leaflet/dist/leaflet.js';
 import 'leaflet/dist/leaflet.css';
 
-import MarkerIcon from './components/MarkerIcon';
+import { GeoJSON } from 'geojson';
 import fixGeoJson from './utils/fixGeojson';
 
-import data from '../static/data.json';
-import dongsData from '../static/dongs.json';
+import dataImport from '../static/data.json';
+import dongsImport from '../static/dongs.json';
 import videos from '../static/videos.json';
-import { Dong } from '../types/Dong';
+import { DongFile, DongProperties } from '../types/Dong';
 import DongCard from './components/DongCard';
-import MarkerCard from './components/MarkerCard';
+import { MarkerFile } from '../types/Marker';
+import geometryMaker from './utils/geometryMaker';
 
+const data = dataImport as MarkerFile;
+const dongsData = dongsImport as DongFile
 const initialPosition = { lat: 37.5291838748897, lng: 126.9818390908695 } as LatLngLiteral;
 
-const markers = data.features.map((marker) => {
-    const { geometry, properties } = marker;
+const markers = data.features.map((element) => geometryMaker(element));
 
-    const color = videos.find((video) => video.id === properties.video)?.color;
-
-    return (
-        <Marker
-            position={[geometry.coordinates[1], geometry.coordinates[0]]}
-            key={properties.name}
-            icon={MarkerIcon(color)}
-        >
-            <Popup>
-                {/* @ts-expect-error */}
-                <MarkerCard marker={marker} />
-            </Popup>
-        </Marker>
-    );
-});
-
-// @ts-expect-error
-const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['properties']>).features
+const dongs = fixGeoJson<GeoJSON.Polygon, DongProperties>(dongsData).features
     .map((dong) => {
-        const { properties, geometry } = dong;
+        const { geometry, properties } = dong;
 
         const video = videos.find((v) => v.geojson.includes(Number.parseInt(properties?.EMD_CD, 10)));
         const color = video?.color ?? 'gray';
@@ -53,8 +37,7 @@ const dongs = fixGeoJson(dongsData as FeatureCollection<Dong['geometry'], Dong['
                 pathOptions={{ color }}
             >
                 <Popup>
-                    {/* @ts-expect-error */}
-                    <DongCard video={video} dong={dong} />
+                    <DongCard video={video} dong={properties} />
                 </Popup>
             </Polygon>
         );
@@ -79,10 +62,10 @@ export default function App() {
                 />
 
                 <ZoomControl position="bottomright" />
+                {dongs}
 
                 {markers}
 
-                {dongs}
             </MapContainer>
         </div>
     );
