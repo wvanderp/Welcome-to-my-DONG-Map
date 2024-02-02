@@ -303,8 +303,7 @@
     "url": "https://www.youtube.com/watch?v=8VlffeEXSGo"
   },
   {
-    "color": "#e3e3e3",
-    "colorNote": "no color was given in the video",
+    "color": "#3e0070",
     "geojson": [
       11680103
     ],
@@ -329,37 +328,32 @@
     "url": "https://www.youtube.com/watch?v=4hu0OayuSxk"
   },
   {
-    "color": "#e3e3e3",
-    "colorNote": "no color was given in the video",
+    "color": "#2c292e",
     "geojson": [
       11140157
     ],
     "id": "gSZ7WYgLAhs",
     "imageAlbum": "https://imgur.com/a/pBYlwDH",
     "location": "Sallimg-dong",
-    "quote": "last of its kind",
-    "quoteNote": "There was no official quote in the video",
+    "quote": "The Last man standing",
     "thumbnail": "https://i.ytimg.com/vi_webp/gSZ7WYgLAhs/maxresdefault.webp",
     "title": "Where do all the Steel Artisans in Euljiro go?",
     "url": "https://www.youtube.com/watch?v=gSZ7WYgLAhs"
   },
   {
-    "color": "#e3e3e3",
-    "colorNote": "no color was given in the video",
+    "color": "#93d102",
     "geojson": [
       11110149
     ],
     "id": "1JqGtrcP1kQ",
     "location": "Wonseo-dong",
-    "quote": " ",
-    "quoteNote": "There was no official quote in the video and also no color",
+    "quote": "Out of the city in the city",
     "thumbnail": "https://i.ytimg.com/vi_webp/1JqGtrcP1kQ/maxresdefault.webp",
     "title": "Why this Neighborhood makes People Happy",
     "url": "https://www.youtube.com/watch?v=1JqGtrcP1kQ"
   },
   {
-    "color": "#e3e3e3",
-    "colorNote": "no color was given in the video",
+    "color": "#63380a",
     "geojson": [
       11590105
     ],
@@ -381,5 +375,133 @@
     "thumbnail": "https://i.ytimg.com/vi_webp/3a12Svg0yOw/maxresdefault.webp",
     "title": "The Key to Korea's Prosperity is Hidden in Seoul's Mountain",
     "url": "https://www.youtube.com/watch?v=3a12Svg0yOw"
+  },
+  {
+    "color": "#e3e3e3",
+    "colorNote": "no color was given in the video",
+    "geojson": [
+      11710111
+    ],
+    "id": "c7czUXNU6LA",
+    "location": "Bangi-dong",
+    "quote": "88 Turning Point",
+    "thumbnail": "https://i.ytimg.com/vi_webp/c7czUXNU6LA/maxresdefault.webp",
+    "title": "How the 88 Olympics Changed Korea and the World Forever",
+    "url": "https://www.youtube.com/watch?v=c7czUXNU6LA"
+  },
+  {
+    "color": "#084fc2",
+    "geojson": [
+      11620103
+    ],
+    "id": "hTPLmp2PmKo",
+    "location": "Namhyeon-dong",
+    "quote": "Randomness in the southern mountain pass",
+    "thumbnail": "https://i.ytimg.com/vi_webp/hTPLmp2PmKo/maxresdefault.webp",
+    "title": "The Seoul Mountain Pass where Thieves Robbed",
+    "url": "https://www.youtube.com/watch?v=hTPLmp2PmKo"
+  },
+  {
+    "color": "#07c7f2",
+    "geojson": [
+      11140173,
+      11140174
+    ],
+    "id": "9djZA7DXSTQ",
+    "location": "Malli-dong",
+    "quote": "'Hitler's Tree'",
+    "thumbnail": "https://i.ytimg.com/vi_webp/9djZA7DXSTQ/maxresdefault.webp",
+    "title": "After I heard there was a 'Hitler Tree' in Seoul, I went to have a look",
+    "url": "https://www.youtube.com/watch?v=9djZA7DXSTQ"
+  },
+  {
+    "color": "#c92706",
+    "geojson": [
+      11110184
+    ],
+    "id": "bAr1vTMiiUA",
+    "location": "Buam-dong",
+    "quote": "Harmonized Layers of the Past",
+    "thumbnail": "https://i.ytimg.com/vi_webp/bAr1vTMiiUA/maxresdefault.webp",
+    "title": "Why is Buam many people's favorite neighborhood in Seoul?",
+    "url": "https://www.youtube.com/watch?v=bAr1vTMiiUA"
+  },
+  {
+    "color": "#fca83a",
+    "geojson": [
+      11110148
+    ],
+    "id": "tndvNJYc6zg",
+    "location": "Gye-dong",
+    "quote": "Trendy but not Trendy",
+    "thumbnail": "https://i.ytimg.com/vi_webp/tndvNJYc6zg/maxresdefault.webp",
+    "title": "A global Street where the Korean Spirit is High",
+    "url": "https://www.youtube.com/watch?v=tndvNJYc6zg"
+  },
+  {
+    "color": "#f0b23e",
+    "geojson": [
+      11170130
+    ],
+    "id": "mi7rtd4hwgc",
+    "location": "Itaewon-dong",
+    "quote": "Portal to the outside world",
+    "thumbnail": "https://i.ytimg.com/vi_webp/mi7rtd4hwgc/maxresdefault.webp",
+    "title": "How Itaewon Became a ‘Place To Avoid’",
+    "url": "https://www.youtube.com/watch?v=mi7rtd4hwgc"
+  },
+  {
+    "color": "#ffdb12",
+    "geojson": [
+      11170108
+    ],
+    "id": "HYbjFEtgdN8",
+    "location": "Seogye-dong",
+    "quote": "Unlucky downtown",
+    "thumbnail": "https://i.ytimg.com/vi_webp/HYbjFEtgdN8/maxresdefault.webp",
+    "title": "The Unlucky Neighborhood in the Heart of Seoul",
+    "url": "https://www.youtube.com/watch?v=HYbjFEtgdN8"
+  },
+  {
+    "color": "#08754a",
+    "geojson": [
+      11110136,
+      11110128,
+      11110129,
+      11110127
+    ],
+    "id": "KKjsg7hVOeE",
+    "location": "Insa-dong",
+    "quote": "Shopping with a taste of Korean Nobility",
+    "thumbnail": "https://i.ytimg.com/vi_webp/KKjsg7hVOeE/maxresdefault.webp",
+    "title": "Insadong is not the Tourist Trap that I Think it Was",
+    "url": "https://www.youtube.com/watch?v=KKjsg7hVOeE"
+  },
+  {
+    "color": "#057347",
+    "geojson": [
+      11410117
+    ],
+    "id": "k9ksvhaz-Fo",
+    "location": "Yeonhui-dong",
+    "quote": "Artizens in Low-rise",
+    "thumbnail": "https://i.ytimg.com/vi/k9ksvhaz-Fo/maxresdefault.jpg",
+    "title": "Why Franchises Can't Survive in Yeonhui-dong",
+    "url": "https://www.youtube.com/watch?v=k9ksvhaz-Fo"
+  },
+  {
+    "color": "#05f78e",
+    "geojson": [
+      11140107,
+      11140108,
+      11140109,
+      11140110
+    ],
+    "id": "3fVoUzvrFqY",
+    "location": "Eulji-ro",
+    "quote": "Change",
+    "thumbnail": "https://i.ytimg.com/vi_webp/3fVoUzvrFqY/maxresdefault.webp",
+    "title": "I Can’t Show this Place to my Foreign Friends Anymore",
+    "url": "https://www.youtube.com/watch?v=3fVoUzvrFqY"
   }
 ]

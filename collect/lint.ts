@@ -18,7 +18,7 @@ function sortKeys<P extends object>(object: P): P {
 }
 
 const ajv = new Ajv();
-const dongRegex = '^[A-Z][a-z]+-dong$';
+const dongRegex = '^[A-Z][a-z]+(?:(?:-dong)|(?:-ro))$';
 
 // ----------------------------------------------------------------------------------------------
 // videos
@@ -208,3 +208,17 @@ const validateMarkers = ajv.compile(markerSchema);
 console.log('Linting markers.json...');
 const isMarkersValid = validateMarkers(markers);
 if (!isMarkersValid) console.log(validateMarkers.errors);
+
+// find videos without markers
+
+const videoIdsWithMarkers = new Set(markers.features.map((feature) => feature.properties.video));
+const videoIdsWithoutMarkers = videos.filter((video) => !videoIdsWithMarkers.has(video.id)).map((video) => video.id);
+
+if (videoIdsWithoutMarkers.length > 0) {
+    console.log('Videos without markers:');
+    console.log(videoIdsWithoutMarkers);
+
+    // select a random video without markers and tell me to add a marker for it
+    const randomVideo = videoIdsWithoutMarkers[Math.floor(Math.random() * videoIdsWithoutMarkers.length)];
+    console.log(`Please add a marker for "${videos.find((video) => video.id === randomVideo)!.title}"`);
+}

@@ -2,6 +2,7 @@
 import youtubedl from 'youtube-dl-exec';
 import fs from 'fs';
 import path from 'path';
+import { Entry, Playlist } from '../types/Playlist';
 
 const playlistUrl = 'https://www.youtube.com/playlist?list=PLLUVyN0NcUJ_puQu9td7xQWzYRk_pyKIV';
 const ignoredVideos = new Set([
@@ -17,46 +18,39 @@ const ignoredVideos = new Set([
         noWarnings: true,
         callHome: false,
         noCheckCertificates: true
-    });
+    }) as unknown as Playlist;
 
-    // @ts-expect-error - playlist.entries is not defined in the type definition because it's wrong
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const videos = playlist.entries.map((video: any) => ({
-        title: video.title,
-        thumbnail: video.thumbnail,
-        url: video.webpage_url,
-        id: video.id,
-        location: video.tags.find((tag: string) => tag.toLowerCase().endsWith('dong') && !tag.toLowerCase().startsWith('welcome')) ?? '',
-        geojson: [],
-        color: '',
-        quote: ''
-    })) as {
-        title: string,
-        thumbnail: string,
-        url: string,
-        id: string,
-        location: string,
-        geojson: number[],
-        color: string,
-        quote: string
-    }[];
+    if (!playlist || !playlist.entries) {
+        console.log('No videos found in the playlist!');
+        return;
+    }
 
     const videoFilePath = path.join(__dirname, '../static/videos.json');
     const videoFile = JSON.parse(fs.readFileSync(videoFilePath).toString());
 
-    for (const video of videos) {
+    const videos = playlist.entries
+        // filter out all null values
+        .filter((video): video is Entry => video !== null)
+        // map the videos to the format we want
+        .map((video) => ({
+            title: video.title,
+            thumbnail: video.thumbnail,
+            url: video.webpage_url,
+            id: video.id,
+            location: video.tags.find((tag: string) => tag.toLowerCase().endsWith('dong') && !tag.toLowerCase().startsWith('welcome')) ?? '',
+            geojson: [] as number[],
+            color: '',
+            quote: ''
+        }))
+        // filter out all videos that are not directly related to a dong
+        .filter((video) => !ignoredVideos.has(video.id))
+        // filter out all videos that are already in the file
         // @ts-expect-error
-        if (videoFile.some((v) => v.id === video.id)) {
-            continue;
-        }
+        .filter((video) => !videoFile.some((v) => v.id === video.id))
 
-        // skip the videos that are not directly related to a dong
-        if (ignoredVideos.has(video.id)) {
-            continue;
-        }
+    console.log(videos);
 
-        videoFile.push(video);
-    }
+    videoFile.push(...videos);
 
     fs.writeFileSync(videoFilePath, JSON.stringify(videoFile, null, 4));
 })();
