@@ -74,7 +74,10 @@ const videoSchema = {
             },
             quoteNote: {
                 type: 'string'
-            }
+            },
+            oldColor: { 
+                type: ['string', 'boolean'],
+            },
         },
         required: ['title', 'thumbnail', 'url', 'id', 'location', 'geojson', 'color', 'quote'],
         additionalProperties: false
@@ -102,8 +105,14 @@ if (duplicateVideoIds.size > 0) {
     console.log(duplicateVideoIds);
 }
 
-// notify of color and quote notes
+// check for oldColor values that are true
+for (const video of videos) {
+    if (video.oldColor === true) {
+        console.log(`Video ${video.id} has oldColor set to true`);
+    }
+}
 
+// notify of color and quote notes
 const colorNoteVideos = videos.filter((video) => video.colorNote);
 
 if (colorNoteVideos.length > 0) {
